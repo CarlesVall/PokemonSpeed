@@ -1,0 +1,28 @@
+{
+  "name": "pokemon-speed",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "validate:data": "tsx scripts/validate-data.ts",
+    "audit:mega-speeds": "tsx scripts/audit-mega-speeds.ts",
+    "generate:data": "tsx scripts/generate-mb-data-batched.ts && tsx scripts/resolve-image-urls-v2.ts && tsx scripts/add-types.ts && tsx scripts/fix-mb-mega-speeds.ts"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "vite": "latest"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "tsx": "latest",
+    "typescript": "latest",
+    "vitest": "latest"
+  }
+}

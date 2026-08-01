@@ -1,0 +1,5825 @@
+{
+  "schemaVersion": 1,
+  "regulation": "M-B",
+  "snapshotDate": "2026-08-01",
+  "sources": {
+    "eligibility": {
+      "name": "WikiDex ? Reglamento M-B",
+      "url": "https://www.wikidex.net/wiki/Reglamento_M-B"
+    },
+    "speeds": {
+      "name": "PokéBase · Pokémon Champions Speed Tiers",
+      "url": "https://pokebase.app/pokemon-champions/speed-tiers"
+    },
+    "artwork": {
+      "name": "WikiDex CDN",
+      "url": "https://www.wikidex.net/"
+    }
+  },
+  "pokemon": [
+    {
+      "id": "venusaur",
+      "dexNumber": 3,
+      "displayName": "Venusaur",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Planta",
+        "Veneno"
+      ],
+      "baseStats": {
+        "speed": 80
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Venusaur",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/a/ad/latest/20260417162810/Venusaur_icono_Champions.png",
+        "imageAlt": "Ilustración de Venusaur en WikiDex"
+      }
+    },
+    {
+      "id": "charizard",
+      "dexNumber": 6,
+      "displayName": "Charizard",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Fuego",
+        "Volador"
+      ],
+      "baseStats": {
+        "speed": 100
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Charizard",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/d/df/latest/20260417162413/Charizard_icono_Champions.png",
+        "imageAlt": "Ilustración de Charizard en WikiDex"
+      }
+    },
+    {
+      "id": "blastoise",
+      "dexNumber": 9,
+      "displayName": "Blastoise",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Agua"
+      ],
+      "baseStats": {
+        "speed": 78
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Blastoise",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/3/3f/latest/20260417162419/Blastoise_icono_Champions.png",
+        "imageAlt": "Ilustración de Blastoise en WikiDex"
+      }
+    },
+    {
+      "id": "beedrill",
+      "dexNumber": 15,
+      "displayName": "Beedrill",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Bicho",
+        "Veneno"
+      ],
+      "baseStats": {
+        "speed": 75
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Beedrill",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/1/17/latest/20260417162934/Beedrill_icono_Champions.png",
+        "imageAlt": "Ilustración de Beedrill en WikiDex"
+      }
+    },
+    {
+      "id": "pidgeot",
+      "dexNumber": 18,
+      "displayName": "Pidgeot",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Normal",
+        "Volador"
+      ],
+      "baseStats": {
+        "speed": 101
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Pidgeot",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/9/92/latest/20260417162902/Pidgeot_icono_Champions.png",
+        "imageAlt": "Ilustración de Pidgeot en WikiDex"
+      }
+    },
+    {
+      "id": "arbok",
+      "dexNumber": 24,
+      "displayName": "Arbok",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Veneno"
+      ],
+      "baseStats": {
+        "speed": 80
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Arbok",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/8/8a/latest/20260417162905/Arbok_icono_Champions.png",
+        "imageAlt": "Ilustración de Arbok en WikiDex"
+      }
+    },
+    {
+      "id": "pikachu",
+      "dexNumber": 25,
+      "displayName": "Pikachu",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Eléctrico"
+      ],
+      "baseStats": {
+        "speed": 90
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Pikachu",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/e/ec/latest/20260417162803/Pikachu_icono_Champions.png",
+        "imageAlt": "Ilustración de Pikachu en WikiDex"
+      }
+    },
+    {
+      "id": "raichu",
+      "dexNumber": 26,
+      "displayName": "Raichu",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Eléctrico"
+      ],
+      "baseStats": {
+        "speed": 100
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Raichu",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/6/61/latest/20260417162628/Raichu_icono_Champions.png",
+        "imageAlt": "Ilustración de Raichu en WikiDex"
+      }
+    },
+    {
+      "id": "raichu-de-alola",
+      "dexNumber": 26,
+      "displayName": "Raichu de Alola",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Eléctrico",
+        "Psíquico"
+      ],
+      "baseStats": {
+        "speed": 110
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Raichu_de_Alola",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/c/c6/latest/20260417162458/Raichu_de_Alola_icono_Champions.png",
+        "imageAlt": "Ilustración de Raichu de Alola en WikiDex"
+      }
+    },
+    {
+      "id": "clefable",
+      "dexNumber": 36,
+      "displayName": "Clefable",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Hada",
+        "Volador"
+      ],
+      "baseStats": {
+        "speed": 60
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Clefable",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/d/d7/latest/20260417162652/Clefable_icono_Champions.png",
+        "imageAlt": "Ilustración de Clefable en WikiDex"
+      }
+    },
+    {
+      "id": "ninetales",
+      "dexNumber": 38,
+      "displayName": "Ninetales",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Fuego"
+      ],
+      "baseStats": {
+        "speed": 100
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Ninetales",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/2/2b/latest/20260417162541/Ninetales_icono_Champions.png",
+        "imageAlt": "Ilustración de Ninetales en WikiDex"
+      }
+    },
+    {
+      "id": "vileplume",
+      "dexNumber": 45,
+      "displayName": "Vileplume",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Planta",
+        "Veneno"
+      ],
+      "baseStats": {
+        "speed": 50
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Vileplume",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/c/cc/latest/20260617140605/Vileplume_icono_Champions.png",
+        "imageAlt": "Ilustración de Vileplume en WikiDex"
+      }
+    },
+    {
+      "id": "ninetales-de-alola",
+      "dexNumber": 38,
+      "displayName": "Ninetales de Alola",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Hielo",
+        "Hada"
+      ],
+      "baseStats": {
+        "speed": 109
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Ninetales_de_Alola",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/c/cb/latest/20260417162520/Ninetales_de_Alola_icono_Champions.png",
+        "imageAlt": "Ilustración de Ninetales de Alola en WikiDex"
+      }
+    },
+    {
+      "id": "arcanine",
+      "dexNumber": 59,
+      "displayName": "Arcanine",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Fuego"
+      ],
+      "baseStats": {
+        "speed": 95
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Arcanine",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/e/e9/latest/20260417162456/Arcanine_icono_Champions.png",
+        "imageAlt": "Ilustración de Arcanine en WikiDex"
+      }
+    },
+    {
+      "id": "arcanine-de-hisui",
+      "dexNumber": 59,
+      "displayName": "Arcanine de Hisui",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Fuego",
+        "Roca"
+      ],
+      "baseStats": {
+        "speed": 90
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Arcanine_de_Hisui",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/b/b5/latest/20260417162853/Arcanine_de_Hisui_icono_Champions.png",
+        "imageAlt": "Ilustración de Arcanine de Hisui en WikiDex"
+      }
+    },
+    {
+      "id": "alakazam",
+      "dexNumber": 65,
+      "displayName": "Alakazam",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Psíquico"
+      ],
+      "baseStats": {
+        "speed": 120
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Alakazam",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/5/5b/latest/20260417162430/Alakazam_icono_Champions.png",
+        "imageAlt": "Ilustración de Alakazam en WikiDex"
+      }
+    },
+    {
+      "id": "machamp",
+      "dexNumber": 68,
+      "displayName": "Machamp",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Lucha"
+      ],
+      "baseStats": {
+        "speed": 55
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Machamp",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/6/69/latest/20260417162537/Machamp_icono_Champions.png",
+        "imageAlt": "Ilustración de Machamp en WikiDex"
+      }
+    },
+    {
+      "id": "victreebel",
+      "dexNumber": 71,
+      "displayName": "Victreebel",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Planta",
+        "Veneno"
+      ],
+      "baseStats": {
+        "speed": 70
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Victreebel",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/e/e0/latest/20260417162948/Victreebel_icono_Champions.png",
+        "imageAlt": "Ilustración de Victreebel en WikiDex"
+      }
+    },
+    {
+      "id": "slowbro",
+      "dexNumber": 80,
+      "displayName": "Slowbro",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Agua",
+        "Psíquico"
+      ],
+      "baseStats": {
+        "speed": 30
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Slowbro",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/6/66/latest/20260417162909/Slowbro_icono_Champions.png",
+        "imageAlt": "Ilustración de Slowbro en WikiDex"
+      }
+    },
+    {
+      "id": "slowbro-de-galar",
+      "dexNumber": 80,
+      "displayName": "Slowbro de Galar",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Veneno",
+        "Psíquico"
+      ],
+      "baseStats": {
+        "speed": 30
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Slowbro_de_Galar",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/6/6f/latest/20260417163002/Slowbro_de_Galar_icono_Champions.png",
+        "imageAlt": "Ilustración de Slowbro de Galar en WikiDex"
+      }
+    },
+    {
+      "id": "gengar",
+      "dexNumber": 94,
+      "displayName": "Gengar",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Fantasma",
+        "Veneno"
+      ],
+      "baseStats": {
+        "speed": 110
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Gengar",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/6/69/latest/20260417162548/Gengar_icono_Champions.png",
+        "imageAlt": "Ilustración de Gengar en WikiDex"
+      }
+    },
+    {
+      "id": "kangaskhan",
+      "dexNumber": 115,
+      "displayName": "Kangaskhan",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Normal"
+      ],
+      "baseStats": {
+        "speed": 90
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Kangaskhan",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/e/e0/latest/20260417162439/Kangaskhan_icono_Champions.png",
+        "imageAlt": "Ilustración de Kangaskhan en WikiDex"
+      }
+    },
+    {
+      "id": "starmie",
+      "dexNumber": 121,
+      "displayName": "Starmie",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Agua",
+        "Psíquico"
+      ],
+      "baseStats": {
+        "speed": 115
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Starmie",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/8/8e/latest/20260417162441/Starmie_icono_Champions.png",
+        "imageAlt": "Ilustración de Starmie en WikiDex"
+      }
+    },
+    {
+      "id": "pinsir",
+      "dexNumber": 127,
+      "displayName": "Pinsir",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Bicho",
+        "Volador"
+      ],
+      "baseStats": {
+        "speed": 85
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Pinsir",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/b/b0/latest/20260417162603/Pinsir_icono_Champions.png",
+        "imageAlt": "Ilustración de Pinsir en WikiDex"
+      }
+    },
+    {
+      "id": "tauros",
+      "dexNumber": 128,
+      "displayName": "Tauros",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Normal"
+      ],
+      "baseStats": {
+        "speed": 110
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Tauros",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/b/b4/latest/20260417162502/Tauros_icono_Champions.png",
+        "imageAlt": "Ilustración de Tauros en WikiDex"
+      }
+    },
+    {
+      "id": "tauros-de-paldea-combatiente",
+      "dexNumber": 128,
+      "displayName": "Tauros de Paldea combatiente",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Lucha",
+        "Fuego"
+      ],
+      "baseStats": {
+        "speed": 100
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Tauros_de_Paldea",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/d/d8/latest/20260417162655/Tauros_de_Paldea_combatiente_icono_Champions.png",
+        "imageAlt": "Ilustración de Tauros de Paldea combatiente en WikiDex"
+      }
+    },
+    {
+      "id": "tauros-de-paldea-ardiente",
+      "dexNumber": 128,
+      "displayName": "Tauros de Paldea ardiente",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Lucha",
+        "Fuego"
+      ],
+      "baseStats": {
+        "speed": 100
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Tauros_de_Paldea",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/3/3c/latest/20260417163000/Tauros_de_Paldea_ardiente_icono_Champions.png",
+        "imageAlt": "Ilustración de Tauros de Paldea ardiente en WikiDex"
+      }
+    },
+    {
+      "id": "tauros-de-paldea-acuatica",
+      "dexNumber": 128,
+      "displayName": "Tauros de Paldea acuática",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Lucha",
+        "Fuego"
+      ],
+      "baseStats": {
+        "speed": 100
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Tauros_de_Paldea",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/f/f4/latest/20260417162638/Tauros_de_Paldea_acu%C3%A1tica_icono_Champions.png",
+        "imageAlt": "Ilustración de Tauros de Paldea acuática en WikiDex"
+      }
+    },
+    {
+      "id": "gyarados",
+      "dexNumber": 130,
+      "displayName": "Gyarados",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Agua",
+        "Volador"
+      ],
+      "baseStats": {
+        "speed": 81
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Gyarados",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/c/c0/latest/20260417162440/Gyarados_icono_Champions.png",
+        "imageAlt": "Ilustración de Gyarados en WikiDex"
+      }
+    },
+    {
+      "id": "ditto",
+      "dexNumber": 132,
+      "displayName": "Ditto",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Normal"
+      ],
+      "baseStats": {
+        "speed": 48
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Ditto",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/3/35/latest/20260417162708/Ditto_icono_Champions.png",
+        "imageAlt": "Ilustración de Ditto en WikiDex"
+      }
+    },
+    {
+      "id": "vaporeon",
+      "dexNumber": 134,
+      "displayName": "Vaporeon",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Agua"
+      ],
+      "baseStats": {
+        "speed": 65
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Vaporeon",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/c/c1/latest/20260417162519/Vaporeon_icono_Champions.png",
+        "imageAlt": "Ilustración de Vaporeon en WikiDex"
+      }
+    },
+    {
+      "id": "jolteon",
+      "dexNumber": 135,
+      "displayName": "Jolteon",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Eléctrico"
+      ],
+      "baseStats": {
+        "speed": 130
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Jolteon",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/e/e2/latest/20260417162423/Jolteon_icono_Champions.png",
+        "imageAlt": "Ilustración de Jolteon en WikiDex"
+      }
+    },
+    {
+      "id": "flareon",
+      "dexNumber": 136,
+      "displayName": "Flareon",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Fuego"
+      ],
+      "baseStats": {
+        "speed": 65
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Flareon",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/4/4b/latest/20260417162443/Flareon_icono_Champions.png",
+        "imageAlt": "Ilustración de Flareon en WikiDex"
+      }
+    },
+    {
+      "id": "aerodactyl",
+      "dexNumber": 142,
+      "displayName": "Aerodactyl",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Roca",
+        "Volador"
+      ],
+      "baseStats": {
+        "speed": 130
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Aerodactyl",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/a/ae/latest/20260417162424/Aerodactyl_icono_Champions.png",
+        "imageAlt": "Ilustración de Aerodactyl en WikiDex"
+      }
+    },
+    {
+      "id": "snorlax",
+      "dexNumber": 143,
+      "displayName": "Snorlax",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Normal"
+      ],
+      "baseStats": {
+        "speed": 30
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Snorlax",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/1/19/latest/20260417162922/Snorlax_icono_Champions.png",
+        "imageAlt": "Ilustración de Snorlax en WikiDex"
+      }
+    },
+    {
+      "id": "dragonite",
+      "dexNumber": 149,
+      "displayName": "Dragonite",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Dragón",
+        "Volador"
+      ],
+      "baseStats": {
+        "speed": 80
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Dragonite",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/0/04/latest/20260417162842/Dragonite_icono_Champions.png",
+        "imageAlt": "Ilustración de Dragonite en WikiDex"
+      }
+    },
+    {
+      "id": "meganium",
+      "dexNumber": 154,
+      "displayName": "Meganium",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Planta",
+        "Hada"
+      ],
+      "baseStats": {
+        "speed": 80
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Meganium",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/f/f7/latest/20260417162547/Meganium_icono_Champions.png",
+        "imageAlt": "Ilustración de Meganium en WikiDex"
+      }
+    },
+    {
+      "id": "typhlosion",
+      "dexNumber": 157,
+      "displayName": "Typhlosion",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Fuego"
+      ],
+      "baseStats": {
+        "speed": 100
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Typhlosion",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/6/66/latest/20260417162446/Typhlosion_icono_Champions.png",
+        "imageAlt": "Ilustración de Typhlosion en WikiDex"
+      }
+    },
+    {
+      "id": "typhlosion-de-hisui",
+      "dexNumber": 157,
+      "displayName": "Typhlosion de Hisui",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Fuego",
+        "Fantasma"
+      ],
+      "baseStats": {
+        "speed": 95
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Typhlosion_de_Hisui",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/1/17/latest/20260417162507/Typhlosion_de_Hisui_icono_Champions.png",
+        "imageAlt": "Ilustración de Typhlosion de Hisui en WikiDex"
+      }
+    },
+    {
+      "id": "feraligatr",
+      "dexNumber": 160,
+      "displayName": "Feraligatr",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Agua",
+        "Dragón"
+      ],
+      "baseStats": {
+        "speed": 78
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Feraligatr",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/c/c7/latest/20260417162925/Feraligatr_icono_Champions.png",
+        "imageAlt": "Ilustración de Feraligatr en WikiDex"
+      }
+    },
+    {
+      "id": "ariados",
+      "dexNumber": 168,
+      "displayName": "Ariados",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Bicho",
+        "Veneno"
+      ],
+      "baseStats": {
+        "speed": 40
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Ariados",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/6/64/latest/20260417162821/Ariados_icono_Champions.png",
+        "imageAlt": "Ilustración de Ariados en WikiDex"
+      }
+    },
+    {
+      "id": "ampharos",
+      "dexNumber": 181,
+      "displayName": "Ampharos",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Eléctrico",
+        "Dragón"
+      ],
+      "baseStats": {
+        "speed": 55
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Ampharos",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/8/8f/latest/20260417162626/Ampharos_icono_Champions.png",
+        "imageAlt": "Ilustración de Ampharos en WikiDex"
+      }
+    },
+    {
+      "id": "azumarill",
+      "dexNumber": 184,
+      "displayName": "Azumarill",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Agua",
+        "Hada"
+      ],
+      "baseStats": {
+        "speed": 50
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Azumarill",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/0/05/latest/20260417162630/Azumarill_icono_Champions.png",
+        "imageAlt": "Ilustración de Azumarill en WikiDex"
+      }
+    },
+    {
+      "id": "politoed",
+      "dexNumber": 186,
+      "displayName": "Politoed",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Agua"
+      ],
+      "baseStats": {
+        "speed": 70
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Politoed",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/9/91/latest/20260417162609/Politoed_icono_Champions.png",
+        "imageAlt": "Ilustración de Politoed en WikiDex"
+      }
+    },
+    {
+      "id": "espeon",
+      "dexNumber": 196,
+      "displayName": "Espeon",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Psíquico"
+      ],
+      "baseStats": {
+        "speed": 110
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Espeon",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/9/9b/latest/20260417162610/Espeon_icono_Champions.png",
+        "imageAlt": "Ilustración de Espeon en WikiDex"
+      }
+    },
+    {
+      "id": "umbreon",
+      "dexNumber": 197,
+      "displayName": "Umbreon",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Siniestro"
+      ],
+      "baseStats": {
+        "speed": 65
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Umbreon",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/7/73/latest/20260417162953/Umbreon_icono_Champions.png",
+        "imageAlt": "Ilustración de Umbreon en WikiDex"
+      }
+    },
+    {
+      "id": "slowking",
+      "dexNumber": 199,
+      "displayName": "Slowking",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Agua",
+        "Psíquico"
+      ],
+      "baseStats": {
+        "speed": 30
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Slowking",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/0/0b/latest/20260417162912/Slowking_icono_Champions.png",
+        "imageAlt": "Ilustración de Slowking en WikiDex"
+      }
+    },
+    {
+      "id": "slowking-de-galar",
+      "dexNumber": 199,
+      "displayName": "Slowking de Galar",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Veneno",
+        "Psíquico"
+      ],
+      "baseStats": {
+        "speed": 30
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Slowking_de_Galar",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/1/17/latest/20260417162822/Slowking_de_Galar_icono_Champions.png",
+        "imageAlt": "Ilustración de Slowking de Galar en WikiDex"
+      }
+    },
+    {
+      "id": "forretress",
+      "dexNumber": 205,
+      "displayName": "Forretress",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Bicho",
+        "Acero"
+      ],
+      "baseStats": {
+        "speed": 40
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Forretress",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/0/09/latest/20260417162914/Forretress_icono_Champions.png",
+        "imageAlt": "Ilustración de Forretress en WikiDex"
+      }
+    },
+    {
+      "id": "steelix",
+      "dexNumber": 208,
+      "displayName": "Steelix",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Acero",
+        "Tierra"
+      ],
+      "baseStats": {
+        "speed": 30
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Steelix",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/e/ec/latest/20260417162831/Steelix_icono_Champions.png",
+        "imageAlt": "Ilustración de Steelix en WikiDex"
+      }
+    },
+    {
+      "id": "qwilfish",
+      "dexNumber": 211,
+      "displayName": "Qwilfish",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Agua",
+        "Veneno"
+      ],
+      "baseStats": {
+        "speed": 85
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Qwilfish",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/a/a4/latest/20260617220620/Qwilfish_icono_Champions.png",
+        "imageAlt": "Ilustración de Qwilfish en WikiDex"
+      }
+    },
+    {
+      "id": "scizor",
+      "dexNumber": 212,
+      "displayName": "Scizor",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Bicho",
+        "Acero"
+      ],
+      "baseStats": {
+        "speed": 65
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Scizor",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/7/77/latest/20260417162915/Scizor_icono_Champions.png",
+        "imageAlt": "Ilustración de Scizor en WikiDex"
+      }
+    },
+    {
+      "id": "heracross",
+      "dexNumber": 214,
+      "displayName": "Heracross",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Bicho",
+        "Lucha"
+      ],
+      "baseStats": {
+        "speed": 85
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Heracross",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/0/0a/latest/20260417162503/Heracross_icono_Champions.png",
+        "imageAlt": "Ilustración de Heracross en WikiDex"
+      }
+    },
+    {
+      "id": "skarmory",
+      "dexNumber": 227,
+      "displayName": "Skarmory",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Acero",
+        "Volador"
+      ],
+      "baseStats": {
+        "speed": 70
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Skarmory",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/7/7b/latest/20260417162813/Skarmory_icono_Champions.png",
+        "imageAlt": "Ilustración de Skarmory en WikiDex"
+      }
+    },
+    {
+      "id": "houndoom",
+      "dexNumber": 229,
+      "displayName": "Houndoom",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Siniestro",
+        "Fuego"
+      ],
+      "baseStats": {
+        "speed": 95
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Houndoom",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/a/a1/latest/20260417162705/Houndoom_icono_Champions.png",
+        "imageAlt": "Ilustración de Houndoom en WikiDex"
+      }
+    },
+    {
+      "id": "tyranitar",
+      "dexNumber": 248,
+      "displayName": "Tyranitar",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Roca",
+        "Siniestro"
+      ],
+      "baseStats": {
+        "speed": 61
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Tyranitar",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/2/2f/latest/20260417162428/Tyranitar_icono_Champions.png",
+        "imageAlt": "Ilustración de Tyranitar en WikiDex"
+      }
+    },
+    {
+      "id": "sceptile",
+      "dexNumber": 254,
+      "displayName": "Sceptile",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Planta",
+        "Dragón"
+      ],
+      "baseStats": {
+        "speed": 120
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Sceptile",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/6/6c/latest/20260617202237/Sceptile_icono_Champions.png",
+        "imageAlt": "Ilustración de Sceptile en WikiDex"
+      }
+    },
+    {
+      "id": "blaziken",
+      "dexNumber": 257,
+      "displayName": "Blaziken",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Fuego",
+        "Lucha"
+      ],
+      "baseStats": {
+        "speed": 80
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Blaziken",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/b/ba/latest/20260617202401/Blaziken_icono_Champions.png",
+        "imageAlt": "Ilustración de Blaziken en WikiDex"
+      }
+    },
+    {
+      "id": "swampert",
+      "dexNumber": 260,
+      "displayName": "Swampert",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Agua",
+        "Tierra"
+      ],
+      "baseStats": {
+        "speed": 60
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Swampert",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/f/ff/latest/20260617202322/Swampert_icono_Champions.png",
+        "imageAlt": "Ilustración de Swampert en WikiDex"
+      }
+    },
+    {
+      "id": "pelipper",
+      "dexNumber": 279,
+      "displayName": "Pelipper",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Agua",
+        "Volador"
+      ],
+      "baseStats": {
+        "speed": 65
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Pelipper",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/f/fc/latest/20260417163015/Pelipper_icono_Champions.png",
+        "imageAlt": "Ilustración de Pelipper en WikiDex"
+      }
+    },
+    {
+      "id": "gardevoir",
+      "dexNumber": 282,
+      "displayName": "Gardevoir",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Psíquico",
+        "Hada"
+      ],
+      "baseStats": {
+        "speed": 80
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Gardevoir",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/a/a1/latest/20260417162450/Gardevoir_icono_Champions.png",
+        "imageAlt": "Ilustración de Gardevoir en WikiDex"
+      }
+    },
+    {
+      "id": "sableye",
+      "dexNumber": 302,
+      "displayName": "Sableye",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Siniestro",
+        "Fantasma"
+      ],
+      "baseStats": {
+        "speed": 50
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Sableye",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/9/95/latest/20260417162651/Sableye_icono_Champions.png",
+        "imageAlt": "Ilustración de Sableye en WikiDex"
+      }
+    },
+    {
+      "id": "mawile",
+      "dexNumber": 303,
+      "displayName": "Mawile",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Acero",
+        "Hada"
+      ],
+      "baseStats": {
+        "speed": 50
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Mawile",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/1/18/latest/20260617202129/Mawile_icono_Champions.png",
+        "imageAlt": "Ilustración de Mawile en WikiDex"
+      }
+    },
+    {
+      "id": "aggron",
+      "dexNumber": 306,
+      "displayName": "Aggron",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Acero",
+        "Roca"
+      ],
+      "baseStats": {
+        "speed": 50
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Aggron",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/6/62/latest/20260417162510/Aggron_icono_Champions.png",
+        "imageAlt": "Ilustración de Aggron en WikiDex"
+      }
+    },
+    {
+      "id": "medicham",
+      "dexNumber": 308,
+      "displayName": "Medicham",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Lucha",
+        "Psíquico"
+      ],
+      "baseStats": {
+        "speed": 80
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Medicham",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/1/1c/latest/20260417162852/Medicham_icono_Champions.png",
+        "imageAlt": "Ilustración de Medicham en WikiDex"
+      }
+    },
+    {
+      "id": "manectric",
+      "dexNumber": 310,
+      "displayName": "Manectric",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Eléctrico"
+      ],
+      "baseStats": {
+        "speed": 105
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Manectric",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/e/ee/latest/20260417162549/Manectric_icono_Champions.png",
+        "imageAlt": "Ilustración de Manectric en WikiDex"
+      }
+    },
+    {
+      "id": "sharpedo",
+      "dexNumber": 319,
+      "displayName": "Sharpedo",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Agua",
+        "Siniestro"
+      ],
+      "baseStats": {
+        "speed": 95
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Sharpedo",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/0/01/latest/20260417162754/Sharpedo_icono_Champions.png",
+        "imageAlt": "Ilustración de Sharpedo en WikiDex"
+      }
+    },
+    {
+      "id": "camerupt",
+      "dexNumber": 323,
+      "displayName": "Camerupt",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Fuego",
+        "Tierra"
+      ],
+      "baseStats": {
+        "speed": 40
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Camerupt",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/c/ce/latest/20260417162448/Camerupt_icono_Champions.png",
+        "imageAlt": "Ilustración de Camerupt en WikiDex"
+      }
+    },
+    {
+      "id": "torkoal",
+      "dexNumber": 324,
+      "displayName": "Torkoal",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Fuego"
+      ],
+      "baseStats": {
+        "speed": 20
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Torkoal",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/1/1e/latest/20260417162850/Torkoal_icono_Champions.png",
+        "imageAlt": "Ilustración de Torkoal en WikiDex"
+      }
+    },
+    {
+      "id": "altaria",
+      "dexNumber": 334,
+      "displayName": "Altaria",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Dragón",
+        "Volador"
+      ],
+      "baseStats": {
+        "speed": 80
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Altaria",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/6/62/latest/20260417162622/Altaria_icono_Champions.png",
+        "imageAlt": "Ilustración de Altaria en WikiDex"
+      }
+    },
+    {
+      "id": "milotic",
+      "dexNumber": 350,
+      "displayName": "Milotic",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Agua"
+      ],
+      "baseStats": {
+        "speed": 81
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Milotic",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/c/ce/latest/20260417162437/Milotic_icono_Champions.png",
+        "imageAlt": "Ilustración de Milotic en WikiDex"
+      }
+    },
+    {
+      "id": "castform",
+      "dexNumber": 351,
+      "displayName": "Castform",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Normal"
+      ],
+      "baseStats": {
+        "speed": 70
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Castform",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/6/61/latest/20260417162854/Castform_icono_Champions.png",
+        "imageAlt": "Ilustración de Castform en WikiDex"
+      }
+    },
+    {
+      "id": "banette",
+      "dexNumber": 354,
+      "displayName": "Banette",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Fantasma"
+      ],
+      "baseStats": {
+        "speed": 65
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Banette",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/3/38/latest/20260417162659/Banette_icono_Champions.png",
+        "imageAlt": "Ilustración de Banette en WikiDex"
+      }
+    },
+    {
+      "id": "chimecho",
+      "dexNumber": 358,
+      "displayName": "Chimecho",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Psíquico",
+        "Acero"
+      ],
+      "baseStats": {
+        "speed": 65
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Chimecho",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/e/ec/latest/20260417162946/Chimecho_icono_Champions.png",
+        "imageAlt": "Ilustración de Chimecho en WikiDex"
+      }
+    },
+    {
+      "id": "absol",
+      "dexNumber": 359,
+      "displayName": "Absol",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Siniestro",
+        "Fantasma"
+      ],
+      "baseStats": {
+        "speed": 75
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Absol",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/3/30/latest/20260417162559/Absol_icono_Champions.png",
+        "imageAlt": "Ilustración de Absol en WikiDex"
+      }
+    },
+    {
+      "id": "glalie",
+      "dexNumber": 362,
+      "displayName": "Glalie",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Hielo"
+      ],
+      "baseStats": {
+        "speed": 80
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Glalie",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/4/4d/latest/20260417162715/Glalie_icono_Champions.png",
+        "imageAlt": "Ilustración de Glalie en WikiDex"
+      }
+    },
+    {
+      "id": "metagross",
+      "dexNumber": 376,
+      "displayName": "Metagross",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Acero",
+        "Psíquico"
+      ],
+      "baseStats": {
+        "speed": 70
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Metagross",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/a/af/latest/20260617202051/Metagross_icono_Champions.png",
+        "imageAlt": "Ilustración de Metagross en WikiDex"
+      }
+    },
+    {
+      "id": "torterra",
+      "dexNumber": 389,
+      "displayName": "Torterra",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Planta",
+        "Tierra"
+      ],
+      "baseStats": {
+        "speed": 56
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Torterra",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/6/66/latest/20260417162627/Torterra_icono_Champions.png",
+        "imageAlt": "Ilustración de Torterra en WikiDex"
+      }
+    },
+    {
+      "id": "infernape",
+      "dexNumber": 392,
+      "displayName": "Infernape",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Fuego",
+        "Lucha"
+      ],
+      "baseStats": {
+        "speed": 108
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Infernape",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/3/38/latest/20260417162833/Infernape_icono_Champions.png",
+        "imageAlt": "Ilustración de Infernape en WikiDex"
+      }
+    },
+    {
+      "id": "empoleon",
+      "dexNumber": 395,
+      "displayName": "Empoleon",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Agua",
+        "Acero"
+      ],
+      "baseStats": {
+        "speed": 60
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Empoleon",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/4/43/latest/20260417162415/Empoleon_icono_Champions.png",
+        "imageAlt": "Ilustración de Empoleon en WikiDex"
+      }
+    },
+    {
+      "id": "staraptor",
+      "dexNumber": 398,
+      "displayName": "Staraptor",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Normal",
+        "Volador"
+      ],
+      "baseStats": {
+        "speed": 100
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Staraptor",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/e/e9/latest/20260617180243/Staraptor_icono_Champions.png",
+        "imageAlt": "Ilustración de Staraptor en WikiDex"
+      }
+    },
+    {
+      "id": "luxray",
+      "dexNumber": 405,
+      "displayName": "Luxray",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Eléctrico"
+      ],
+      "baseStats": {
+        "speed": 70
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Luxray",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/9/9e/latest/20260417162740/Luxray_icono_Champions.png",
+        "imageAlt": "Ilustración de Luxray en WikiDex"
+      }
+    },
+    {
+      "id": "roserade",
+      "dexNumber": 407,
+      "displayName": "Roserade",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Planta",
+        "Veneno"
+      ],
+      "baseStats": {
+        "speed": 90
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Roserade",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/6/66/latest/20260417162820/Roserade_icono_Champions.png",
+        "imageAlt": "Ilustración de Roserade en WikiDex"
+      }
+    },
+    {
+      "id": "rampardos",
+      "dexNumber": 409,
+      "displayName": "Rampardos",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Roca"
+      ],
+      "baseStats": {
+        "speed": 58
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Rampardos",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/c/ca/latest/20260417162923/Rampardos_icono_Champions.png",
+        "imageAlt": "Ilustración de Rampardos en WikiDex"
+      }
+    },
+    {
+      "id": "bastiodon",
+      "dexNumber": 411,
+      "displayName": "Bastiodon",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Roca",
+        "Acero"
+      ],
+      "baseStats": {
+        "speed": 30
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Bastiodon",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/e/e1/latest/20260417162847/Bastiodon_icono_Champions.png",
+        "imageAlt": "Ilustración de Bastiodon en WikiDex"
+      }
+    },
+    {
+      "id": "lopunny",
+      "dexNumber": 428,
+      "displayName": "Lopunny",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Normal",
+        "Lucha"
+      ],
+      "baseStats": {
+        "speed": 105
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Lopunny",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/f/fd/latest/20260417162908/Lopunny_icono_Champions.png",
+        "imageAlt": "Ilustración de Lopunny en WikiDex"
+      }
+    },
+    {
+      "id": "spiritomb",
+      "dexNumber": 442,
+      "displayName": "Spiritomb",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Fantasma",
+        "Siniestro"
+      ],
+      "baseStats": {
+        "speed": 35
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Spiritomb",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/6/6b/latest/20260417162646/Spiritomb_icono_Champions.png",
+        "imageAlt": "Ilustración de Spiritomb en WikiDex"
+      }
+    },
+    {
+      "id": "garchomp",
+      "dexNumber": 445,
+      "displayName": "Garchomp",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Dragón",
+        "Tierra"
+      ],
+      "baseStats": {
+        "speed": 102
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Garchomp",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/f/fc/latest/20260417162604/Garchomp_icono_Champions.png",
+        "imageAlt": "Ilustración de Garchomp en WikiDex"
+      }
+    },
+    {
+      "id": "lucario",
+      "dexNumber": 448,
+      "displayName": "Lucario",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Lucha",
+        "Acero"
+      ],
+      "baseStats": {
+        "speed": 90
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Lucario",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/3/3e/latest/20260417162805/Lucario_icono_Champions.png",
+        "imageAlt": "Ilustración de Lucario en WikiDex"
+      }
+    },
+    {
+      "id": "hippowdon",
+      "dexNumber": 450,
+      "displayName": "Hippowdon",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Tierra"
+      ],
+      "baseStats": {
+        "speed": 47
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Hippowdon",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/9/95/latest/20260417163008/Hippowdon_icono_Champions.png",
+        "imageAlt": "Ilustración de Hippowdon en WikiDex"
+      }
+    },
+    {
+      "id": "toxicroak",
+      "dexNumber": 454,
+      "displayName": "Toxicroak",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Veneno",
+        "Lucha"
+      ],
+      "baseStats": {
+        "speed": 85
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Toxicroak",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/e/e3/latest/20260417162714/Toxicroak_icono_Champions.png",
+        "imageAlt": "Ilustración de Toxicroak en WikiDex"
+      }
+    },
+    {
+      "id": "abomasnow",
+      "dexNumber": 460,
+      "displayName": "Abomasnow",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Planta",
+        "Hielo"
+      ],
+      "baseStats": {
+        "speed": 60
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Abomasnow",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/3/38/latest/20260417162958/Abomasnow_icono_Champions.png",
+        "imageAlt": "Ilustración de Abomasnow en WikiDex"
+      }
+    },
+    {
+      "id": "weavile",
+      "dexNumber": 461,
+      "displayName": "Weavile",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Siniestro",
+        "Hielo"
+      ],
+      "baseStats": {
+        "speed": 125
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Weavile",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/1/1a/latest/20260417163006/Weavile_icono_Champions.png",
+        "imageAlt": "Ilustración de Weavile en WikiDex"
+      }
+    },
+    {
+      "id": "rhyperior",
+      "dexNumber": 464,
+      "displayName": "Rhyperior",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Tierra",
+        "Roca"
+      ],
+      "baseStats": {
+        "speed": 40
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Rhyperior",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/2/24/latest/20260417162417/Rhyperior_icono_Champions.png",
+        "imageAlt": "Ilustración de Rhyperior en WikiDex"
+      }
+    },
+    {
+      "id": "leafeon",
+      "dexNumber": 470,
+      "displayName": "Leafeon",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Planta"
+      ],
+      "baseStats": {
+        "speed": 95
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Leafeon",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/f/f5/latest/20260417162942/Leafeon_icono_Champions.png",
+        "imageAlt": "Ilustración de Leafeon en WikiDex"
+      }
+    },
+    {
+      "id": "glaceon",
+      "dexNumber": 471,
+      "displayName": "Glaceon",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Hielo"
+      ],
+      "baseStats": {
+        "speed": 65
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Glaceon",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/2/2d/latest/20260417162504/Glaceon_icono_Champions.png",
+        "imageAlt": "Ilustración de Glaceon en WikiDex"
+      }
+    },
+    {
+      "id": "gliscor",
+      "dexNumber": 472,
+      "displayName": "Gliscor",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Tierra",
+        "Volador"
+      ],
+      "baseStats": {
+        "speed": 95
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Gliscor",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/1/18/latest/20260417162830/Gliscor_icono_Champions.png",
+        "imageAlt": "Ilustración de Gliscor en WikiDex"
+      }
+    },
+    {
+      "id": "mamoswine",
+      "dexNumber": 473,
+      "displayName": "Mamoswine",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Hielo",
+        "Tierra"
+      ],
+      "baseStats": {
+        "speed": 80
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Mamoswine",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/e/e5/latest/20260417162933/Mamoswine_icono_Champions.png",
+        "imageAlt": "Ilustración de Mamoswine en WikiDex"
+      }
+    },
+    {
+      "id": "gallade",
+      "dexNumber": 475,
+      "displayName": "Gallade",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Psíquico",
+        "Lucha"
+      ],
+      "baseStats": {
+        "speed": 80
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Gallade",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/2/28/latest/20260417163014/Gallade_icono_Champions.png",
+        "imageAlt": "Ilustración de Gallade en WikiDex"
+      }
+    },
+    {
+      "id": "froslass",
+      "dexNumber": 478,
+      "displayName": "Froslass",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Hielo",
+        "Fantasma"
+      ],
+      "baseStats": {
+        "speed": 110
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Froslass",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/5/56/latest/20260417162657/Froslass_icono_Champions.png",
+        "imageAlt": "Ilustración de Froslass en WikiDex"
+      }
+    },
+    {
+      "id": "rotom",
+      "dexNumber": 479,
+      "displayName": "Rotom",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Eléctrico",
+        "Fantasma"
+      ],
+      "baseStats": {
+        "speed": 91
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Rotom",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/9/95/latest/20260417163020/Rotom_icono_Champions.png",
+        "imageAlt": "Ilustración de Rotom en WikiDex"
+      }
+    },
+    {
+      "id": "rotom-calor",
+      "dexNumber": 479,
+      "displayName": "Rotom calor",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Eléctrico",
+        "Fuego"
+      ],
+      "baseStats": {
+        "speed": 91
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Rotom",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/e/e9/latest/20260417163003/Rotom_calor_icono_Champions.png",
+        "imageAlt": "Ilustración de Rotom calor en WikiDex"
+      }
+    },
+    {
+      "id": "rotom-lavado",
+      "dexNumber": 479,
+      "displayName": "Rotom lavado",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Eléctrico",
+        "Agua"
+      ],
+      "baseStats": {
+        "speed": 91
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Rotom",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/2/24/latest/20260417162949/Rotom_lavado_icono_Champions.png",
+        "imageAlt": "Ilustración de Rotom lavado en WikiDex"
+      }
+    },
+    {
+      "id": "rotom-frio",
+      "dexNumber": 479,
+      "displayName": "Rotom frío",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Eléctrico",
+        "Hielo"
+      ],
+      "baseStats": {
+        "speed": 91
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Rotom",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/e/ea/latest/20260417162751/Rotom_fr%C3%ADo_icono_Champions.png",
+        "imageAlt": "Ilustración de Rotom frío en WikiDex"
+      }
+    },
+    {
+      "id": "rotom-ventilador",
+      "dexNumber": 479,
+      "displayName": "Rotom ventilador",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Eléctrico",
+        "Volador"
+      ],
+      "baseStats": {
+        "speed": 91
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Rotom",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/0/0c/latest/20260417162720/Rotom_ventilador_icono_Champions.png",
+        "imageAlt": "Ilustración de Rotom ventilador en WikiDex"
+      }
+    },
+    {
+      "id": "rotom-corte",
+      "dexNumber": 479,
+      "displayName": "Rotom corte",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Eléctrico",
+        "Planta"
+      ],
+      "baseStats": {
+        "speed": 91
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Rotom",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/2/21/latest/20260417162658/Rotom_corte_icono_Champions.png",
+        "imageAlt": "Ilustración de Rotom corte en WikiDex"
+      }
+    },
+    {
+      "id": "serperior",
+      "dexNumber": 497,
+      "displayName": "Serperior",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Planta"
+      ],
+      "baseStats": {
+        "speed": 113
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Serperior",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/4/4e/latest/20260417162726/Serperior_icono_Champions.png",
+        "imageAlt": "Ilustración de Serperior en WikiDex"
+      }
+    },
+    {
+      "id": "emboar",
+      "dexNumber": 500,
+      "displayName": "Emboar",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Fuego",
+        "Lucha"
+      ],
+      "baseStats": {
+        "speed": 65
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Emboar",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/2/2c/latest/20260417163017/Emboar_icono_Champions.png",
+        "imageAlt": "Ilustración de Emboar en WikiDex"
+      }
+    },
+    {
+      "id": "samurott",
+      "dexNumber": 503,
+      "displayName": "Samurott",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Agua"
+      ],
+      "baseStats": {
+        "speed": 70
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Samurott",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/a/ad/latest/20260417163005/Samurott_icono_Champions.png",
+        "imageAlt": "Ilustración de Samurott en WikiDex"
+      }
+    },
+    {
+      "id": "samurott-de-hisui",
+      "dexNumber": 503,
+      "displayName": "Samurott de Hisui",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Agua",
+        "Siniestro"
+      ],
+      "baseStats": {
+        "speed": 85
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Samurott_de_Hisui",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/0/0a/latest/20260417162710/Samurott_de_Hisui_icono_Champions.png",
+        "imageAlt": "Ilustración de Samurott de Hisui en WikiDex"
+      }
+    },
+    {
+      "id": "watchog",
+      "dexNumber": 505,
+      "displayName": "Watchog",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Normal"
+      ],
+      "baseStats": {
+        "speed": 77
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Watchog",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/b/ba/latest/20260417162706/Watchog_icono_Champions.png",
+        "imageAlt": "Ilustración de Watchog en WikiDex"
+      }
+    },
+    {
+      "id": "liepard",
+      "dexNumber": 510,
+      "displayName": "Liepard",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Siniestro"
+      ],
+      "baseStats": {
+        "speed": 106
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Liepard",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/8/8a/latest/20260417162812/Liepard_icono_Champions.png",
+        "imageAlt": "Ilustración de Liepard en WikiDex"
+      }
+    },
+    {
+      "id": "simisage",
+      "dexNumber": 512,
+      "displayName": "Simisage",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Planta"
+      ],
+      "baseStats": {
+        "speed": 101
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Simisage",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/f/f2/latest/20260417162829/Simisage_icono_Champions.png",
+        "imageAlt": "Ilustración de Simisage en WikiDex"
+      }
+    },
+    {
+      "id": "simisear",
+      "dexNumber": 514,
+      "displayName": "Simisear",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Fuego"
+      ],
+      "baseStats": {
+        "speed": 101
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Simisear",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/7/7c/latest/20260417162817/Simisear_icono_Champions.png",
+        "imageAlt": "Ilustración de Simisear en WikiDex"
+      }
+    },
+    {
+      "id": "simipour",
+      "dexNumber": 516,
+      "displayName": "Simipour",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Agua"
+      ],
+      "baseStats": {
+        "speed": 101
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Simipour",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/2/2b/latest/20260417162835/Simipour_icono_Champions.png",
+        "imageAlt": "Ilustración de Simipour en WikiDex"
+      }
+    },
+    {
+      "id": "musharna",
+      "dexNumber": 518,
+      "displayName": "Musharna",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Psíquico"
+      ],
+      "baseStats": {
+        "speed": 29
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Musharna",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/d/d0/latest/20260617202007/Musharna_icono_Champions.png",
+        "imageAlt": "Ilustración de Musharna en WikiDex"
+      }
+    },
+    {
+      "id": "excadrill",
+      "dexNumber": 530,
+      "displayName": "Excadrill",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Tierra",
+        "Acero"
+      ],
+      "baseStats": {
+        "speed": 88
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Excadrill",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/9/92/latest/20260417162544/Excadrill_icono_Champions.png",
+        "imageAlt": "Ilustración de Excadrill en WikiDex"
+      }
+    },
+    {
+      "id": "audino",
+      "dexNumber": 531,
+      "displayName": "Audino",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Normal",
+        "Hada"
+      ],
+      "baseStats": {
+        "speed": 50
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Audino",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/2/2d/latest/20260417162814/Audino_icono_Champions.png",
+        "imageAlt": "Ilustración de Audino en WikiDex"
+      }
+    },
+    {
+      "id": "conkeldurr",
+      "dexNumber": 534,
+      "displayName": "Conkeldurr",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Lucha"
+      ],
+      "baseStats": {
+        "speed": 45
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Conkeldurr",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/8/86/latest/20260417162517/Conkeldurr_icono_Champions.png",
+        "imageAlt": "Ilustración de Conkeldurr en WikiDex"
+      }
+    },
+    {
+      "id": "scolipede",
+      "dexNumber": 545,
+      "displayName": "Scolipede",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Bicho",
+        "Veneno"
+      ],
+      "baseStats": {
+        "speed": 112
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Scolipede",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/0/00/latest/20260617201932/Scolipede_icono_Champions.png",
+        "imageAlt": "Ilustración de Scolipede en WikiDex"
+      }
+    },
+    {
+      "id": "whimsicott",
+      "dexNumber": 547,
+      "displayName": "Whimsicott",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Planta",
+        "Hada"
+      ],
+      "baseStats": {
+        "speed": 116
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Whimsicott",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/2/23/latest/20260417162741/Whimsicott_icono_Champions.png",
+        "imageAlt": "Ilustración de Whimsicott en WikiDex"
+      }
+    },
+    {
+      "id": "krookodile",
+      "dexNumber": 553,
+      "displayName": "Krookodile",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Tierra",
+        "Siniestro"
+      ],
+      "baseStats": {
+        "speed": 92
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Krookodile",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/2/25/latest/20260417162511/Krookodile_icono_Champions.png",
+        "imageAlt": "Ilustración de Krookodile en WikiDex"
+      }
+    },
+    {
+      "id": "scrafty",
+      "dexNumber": 560,
+      "displayName": "Scrafty",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Siniestro",
+        "Lucha"
+      ],
+      "baseStats": {
+        "speed": 58
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Scrafty",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/3/3f/latest/20260617201853/Scrafty_icono_Champions.png",
+        "imageAlt": "Ilustración de Scrafty en WikiDex"
+      }
+    },
+    {
+      "id": "garbodor",
+      "dexNumber": 569,
+      "displayName": "Garbodor",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Veneno"
+      ],
+      "baseStats": {
+        "speed": 75
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Garbodor",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/7/7b/latest/20260417162924/Garbodor_icono_Champions.png",
+        "imageAlt": "Ilustración de Garbodor en WikiDex"
+      }
+    },
+    {
+      "id": "cofagrigus",
+      "dexNumber": 563,
+      "displayName": "Cofagrigus",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Fantasma"
+      ],
+      "baseStats": {
+        "speed": 30
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Cofagrigus",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/0/0e/latest/20260417162700/Cofagrigus_icono_Champions.png",
+        "imageAlt": "Ilustración de Cofagrigus en WikiDex"
+      }
+    },
+    {
+      "id": "zoroark",
+      "dexNumber": 571,
+      "displayName": "Zoroark",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Siniestro"
+      ],
+      "baseStats": {
+        "speed": 105
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Zoroark",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/b/b1/latest/20260417162947/Zoroark_icono_Champions.png",
+        "imageAlt": "Ilustración de Zoroark en WikiDex"
+      }
+    },
+    {
+      "id": "zoroark-de-hisui",
+      "dexNumber": 571,
+      "displayName": "Zoroark de Hisui",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Normal",
+        "Fantasma"
+      ],
+      "baseStats": {
+        "speed": 110
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Zoroark_de_Hisui",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/d/d2/latest/20260417162618/Zoroark_de_Hisui_icono_Champions.png",
+        "imageAlt": "Ilustración de Zoroark de Hisui en WikiDex"
+      }
+    },
+    {
+      "id": "reuniclus",
+      "dexNumber": 579,
+      "displayName": "Reuniclus",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Psíquico"
+      ],
+      "baseStats": {
+        "speed": 30
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Reuniclus",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/0/00/latest/20260417162840/Reuniclus_icono_Champions.png",
+        "imageAlt": "Ilustración de Reuniclus en WikiDex"
+      }
+    },
+    {
+      "id": "vanilluxe",
+      "dexNumber": 584,
+      "displayName": "Vanilluxe",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Hielo"
+      ],
+      "baseStats": {
+        "speed": 79
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Vanilluxe",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/5/52/latest/20260417162750/Vanilluxe_icono_Champions.png",
+        "imageAlt": "Ilustración de Vanilluxe en WikiDex"
+      }
+    },
+    {
+      "id": "emolga",
+      "dexNumber": 587,
+      "displayName": "Emolga",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Eléctrico",
+        "Volador"
+      ],
+      "baseStats": {
+        "speed": 103
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Emolga",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/f/f5/latest/20260417162713/Emolga_icono_Champions.png",
+        "imageAlt": "Ilustración de Emolga en WikiDex"
+      }
+    },
+    {
+      "id": "eelektross",
+      "dexNumber": 604,
+      "displayName": "Eelektross",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Eléctrico"
+      ],
+      "baseStats": {
+        "speed": 50
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Eelektross",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/7/7c/latest/20260617201809/Eelektross_icono_Champions.png",
+        "imageAlt": "Ilustración de Eelektross en WikiDex"
+      }
+    },
+    {
+      "id": "chandelure",
+      "dexNumber": 609,
+      "displayName": "Chandelure",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Fantasma",
+        "Fuego"
+      ],
+      "baseStats": {
+        "speed": 80
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Chandelure",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/2/20/latest/20260417162841/Chandelure_icono_Champions.png",
+        "imageAlt": "Ilustración de Chandelure en WikiDex"
+      }
+    },
+    {
+      "id": "beartic",
+      "dexNumber": 614,
+      "displayName": "Beartic",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Hielo"
+      ],
+      "baseStats": {
+        "speed": 50
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Beartic",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/6/61/latest/20260417162637/Beartic_icono_Champions.png",
+        "imageAlt": "Ilustración de Beartic en WikiDex"
+      }
+    },
+    {
+      "id": "stunfisk",
+      "dexNumber": 618,
+      "displayName": "Stunfisk",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Tierra",
+        "Eléctrico"
+      ],
+      "baseStats": {
+        "speed": 32
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Stunfisk",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/5/5e/latest/20260417162642/Stunfisk_icono_Champions.png",
+        "imageAlt": "Ilustración de Stunfisk en WikiDex"
+      }
+    },
+    {
+      "id": "stunfisk-de-galar",
+      "dexNumber": 618,
+      "displayName": "Stunfisk de Galar",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Tierra",
+        "Acero"
+      ],
+      "baseStats": {
+        "speed": 32
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Stunfisk_de_Galar",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/9/9d/latest/20260417162605/Stunfisk_de_Galar_icono_Champions.png",
+        "imageAlt": "Ilustración de Stunfisk de Galar en WikiDex"
+      }
+    },
+    {
+      "id": "golurk",
+      "dexNumber": 623,
+      "displayName": "Golurk",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Tierra",
+        "Fantasma"
+      ],
+      "baseStats": {
+        "speed": 55
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Golurk",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/8/8c/latest/20260417163011/Golurk_icono_Champions.png",
+        "imageAlt": "Ilustración de Golurk en WikiDex"
+      }
+    },
+    {
+      "id": "hydreigon",
+      "dexNumber": 635,
+      "displayName": "Hydreigon",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Siniestro",
+        "Dragón"
+      ],
+      "baseStats": {
+        "speed": 98
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Hydreigon",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/e/e6/latest/20260417162447/Hydreigon_icono_Champions.png",
+        "imageAlt": "Ilustración de Hydreigon en WikiDex"
+      }
+    },
+    {
+      "id": "volcarona",
+      "dexNumber": 637,
+      "displayName": "Volcarona",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Bicho",
+        "Fuego"
+      ],
+      "baseStats": {
+        "speed": 100
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Volcarona",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/0/0f/latest/20260417162939/Volcarona_icono_Champions.png",
+        "imageAlt": "Ilustración de Volcarona en WikiDex"
+      }
+    },
+    {
+      "id": "chesnaught",
+      "dexNumber": 652,
+      "displayName": "Chesnaught",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Planta",
+        "Lucha"
+      ],
+      "baseStats": {
+        "speed": 64
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Chesnaught",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/c/c6/latest/20260417162901/Chesnaught_icono_Champions.png",
+        "imageAlt": "Ilustración de Chesnaught en WikiDex"
+      }
+    },
+    {
+      "id": "delphox",
+      "dexNumber": 655,
+      "displayName": "Delphox",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Fuego",
+        "Psíquico"
+      ],
+      "baseStats": {
+        "speed": 104
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Delphox",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/7/71/latest/20260417162930/Delphox_icono_Champions.png",
+        "imageAlt": "Ilustración de Delphox en WikiDex"
+      }
+    },
+    {
+      "id": "greninja",
+      "dexNumber": 658,
+      "displayName": "Greninja",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Agua",
+        "Siniestro"
+      ],
+      "baseStats": {
+        "speed": 122
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Greninja",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/1/16/latest/20260417163013/Greninja_icono_Champions.png",
+        "imageAlt": "Ilustración de Greninja en WikiDex"
+      }
+    },
+    {
+      "id": "diggersby",
+      "dexNumber": 660,
+      "displayName": "Diggersby",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Normal",
+        "Tierra"
+      ],
+      "baseStats": {
+        "speed": 78
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Diggersby",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/c/c3/latest/20260417162650/Diggersby_icono_Champions.png",
+        "imageAlt": "Ilustración de Diggersby en WikiDex"
+      }
+    },
+    {
+      "id": "talonflame",
+      "dexNumber": 663,
+      "displayName": "Talonflame",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Fuego",
+        "Volador"
+      ],
+      "baseStats": {
+        "speed": 126
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Talonflame",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/5/5d/latest/20260417162539/Talonflame_icono_Champions.png",
+        "imageAlt": "Ilustración de Talonflame en WikiDex"
+      }
+    },
+    {
+      "id": "vivillon",
+      "dexNumber": 666,
+      "displayName": "Vivillon",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Bicho",
+        "Volador"
+      ],
+      "baseStats": {
+        "speed": 89
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Vivillon",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/f/fa/latest/20260417162632/Vivillon_fantas%C3%ADa_icono_Champions.png",
+        "imageAlt": "Ilustración de Vivillon en WikiDex"
+      }
+    },
+    {
+      "id": "pyroar",
+      "dexNumber": 668,
+      "displayName": "Pyroar",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Fuego",
+        "Normal"
+      ],
+      "baseStats": {
+        "speed": 106
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Pyroar",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/6/65/latest/20260617201737/Pyroar_icono_Champions.png",
+        "imageAlt": "Ilustración de Pyroar en WikiDex"
+      }
+    },
+    {
+      "id": "floette-eterna",
+      "dexNumber": 670,
+      "displayName": "Floette eterna",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Hada"
+      ],
+      "baseStats": {
+        "speed": 92
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Floette",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/c/c7/latest/20260417162723/Floette_eterna_icono_Champions.png",
+        "imageAlt": "Ilustración de Floette eterna en WikiDex"
+      }
+    },
+    {
+      "id": "florges",
+      "dexNumber": 671,
+      "displayName": "Florges",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Hada"
+      ],
+      "baseStats": {
+        "speed": 75
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Florges",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/6/6a/latest/20260417162533/Florges_roja_icono_Champions.png",
+        "imageAlt": "Ilustración de Florges en WikiDex"
+      }
+    },
+    {
+      "id": "pangoro",
+      "dexNumber": 675,
+      "displayName": "Pangoro",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Lucha",
+        "Siniestro"
+      ],
+      "baseStats": {
+        "speed": 58
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Pangoro",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/9/9e/latest/20260417162843/Pangoro_icono_Champions.png",
+        "imageAlt": "Ilustración de Pangoro en WikiDex"
+      }
+    },
+    {
+      "id": "furfrou",
+      "dexNumber": 676,
+      "displayName": "Furfrou",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Normal"
+      ],
+      "baseStats": {
+        "speed": 102
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Furfrou",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/2/2d/latest/20260417162455/Furfrou_icono_Champions.png",
+        "imageAlt": "Ilustración de Furfrou en WikiDex"
+      }
+    },
+    {
+      "id": "meowstic",
+      "dexNumber": 678,
+      "displayName": "Meowstic (Macho)",
+      "form": "Macho",
+      "isMega": false,
+      "types": [
+        "Psíquico"
+      ],
+      "baseStats": {
+        "speed": 104
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Meowstic",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/d/dd/latest/20260417162758/Meowstic_icono_Champions.png",
+        "imageAlt": "Ilustración de Meowstic (Macho) en WikiDex"
+      }
+    },
+    {
+      "id": "meowstic-2",
+      "dexNumber": 678,
+      "displayName": "Meowstic (Hembra)",
+      "form": "Hembra",
+      "isMega": false,
+      "types": [
+        "Psíquico"
+      ],
+      "baseStats": {
+        "speed": 104
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Meowstic",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/9/98/latest/20260417162556/Meowstic_icono_Champions_hembra.png",
+        "imageAlt": "Ilustración de Meowstic (Hembra) en WikiDex"
+      }
+    },
+    {
+      "id": "aegislash",
+      "dexNumber": 681,
+      "displayName": "Aegislash",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Acero",
+        "Fantasma"
+      ],
+      "baseStats": {
+        "speed": 60
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Aegislash",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/c/c3/latest/20260417163018/Aegislash_escudo_icono_Champions.png",
+        "imageAlt": "Ilustración de Aegislash en WikiDex"
+      }
+    },
+    {
+      "id": "aromatisse",
+      "dexNumber": 683,
+      "displayName": "Aromatisse",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Hada"
+      ],
+      "baseStats": {
+        "speed": 29
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Aromatisse",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/4/45/latest/20260417162421/Aromatisse_icono_Champions.png",
+        "imageAlt": "Ilustración de Aromatisse en WikiDex"
+      }
+    },
+    {
+      "id": "slurpuff",
+      "dexNumber": 685,
+      "displayName": "Slurpuff",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Hada"
+      ],
+      "baseStats": {
+        "speed": 72
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Slurpuff",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/4/40/latest/20260417162436/Slurpuff_icono_Champions.png",
+        "imageAlt": "Ilustración de Slurpuff en WikiDex"
+      }
+    },
+    {
+      "id": "malamar",
+      "dexNumber": 687,
+      "displayName": "Malamar",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Siniestro",
+        "Psíquico"
+      ],
+      "baseStats": {
+        "speed": 73
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Malamar",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/1/10/latest/20260617201511/Malamar_icono_Champions.png",
+        "imageAlt": "Ilustración de Malamar en WikiDex"
+      }
+    },
+    {
+      "id": "barbaracle",
+      "dexNumber": 689,
+      "displayName": "Barbaracle",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Roca",
+        "Agua"
+      ],
+      "baseStats": {
+        "speed": 68
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Barbaracle",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/6/65/latest/20260617201550/Barbaracle_icono_Champions.png",
+        "imageAlt": "Ilustración de Barbaracle en WikiDex"
+      }
+    },
+    {
+      "id": "dragalge",
+      "dexNumber": 691,
+      "displayName": "Dragalge",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Veneno",
+        "Dragón"
+      ],
+      "baseStats": {
+        "speed": 44
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Dragalge",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/f/f1/latest/20260617123722/Dragalge_icono_Champions.png",
+        "imageAlt": "Ilustración de Dragalge en WikiDex"
+      }
+    },
+    {
+      "id": "clawitzer",
+      "dexNumber": 693,
+      "displayName": "Clawitzer",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Agua"
+      ],
+      "baseStats": {
+        "speed": 59
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Clawitzer",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/0/05/latest/20260417162631/Clawitzer_icono_Champions.png",
+        "imageAlt": "Ilustración de Clawitzer en WikiDex"
+      }
+    },
+    {
+      "id": "heliolisk",
+      "dexNumber": 695,
+      "displayName": "Heliolisk",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Eléctrico",
+        "Normal"
+      ],
+      "baseStats": {
+        "speed": 109
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Heliolisk",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/8/8b/latest/20260417162815/Heliolisk_icono_Champions.png",
+        "imageAlt": "Ilustración de Heliolisk en WikiDex"
+      }
+    },
+    {
+      "id": "tyrantrum",
+      "dexNumber": 697,
+      "displayName": "Tyrantrum",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Roca",
+        "Dragón"
+      ],
+      "baseStats": {
+        "speed": 71
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Tyrantrum",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/c/ca/latest/20260417162903/Tyrantrum_icono_Champions.png",
+        "imageAlt": "Ilustración de Tyrantrum en WikiDex"
+      }
+    },
+    {
+      "id": "aurorus",
+      "dexNumber": 699,
+      "displayName": "Aurorus",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Roca",
+        "Hielo"
+      ],
+      "baseStats": {
+        "speed": 58
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Aurorus",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/4/47/latest/20260417162621/Aurorus_icono_Champions.png",
+        "imageAlt": "Ilustración de Aurorus en WikiDex"
+      }
+    },
+    {
+      "id": "sylveon",
+      "dexNumber": 700,
+      "displayName": "Sylveon",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Hada"
+      ],
+      "baseStats": {
+        "speed": 60
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Sylveon",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/f/fc/latest/20260417163019/Sylveon_icono_Champions.png",
+        "imageAlt": "Ilustración de Sylveon en WikiDex"
+      }
+    },
+    {
+      "id": "hawlucha",
+      "dexNumber": 701,
+      "displayName": "Hawlucha",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Lucha",
+        "Volador"
+      ],
+      "baseStats": {
+        "speed": 118
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Hawlucha",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/7/75/latest/20260417162856/Hawlucha_icono_Champions.png",
+        "imageAlt": "Ilustración de Hawlucha en WikiDex"
+      }
+    },
+    {
+      "id": "dedenne",
+      "dexNumber": 702,
+      "displayName": "Dedenne",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Eléctrico",
+        "Hada"
+      ],
+      "baseStats": {
+        "speed": 101
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Dedenne",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/5/59/latest/20260417162454/Dedenne_icono_Champions.png",
+        "imageAlt": "Ilustración de Dedenne en WikiDex"
+      }
+    },
+    {
+      "id": "goodra",
+      "dexNumber": 706,
+      "displayName": "Goodra",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Dragón"
+      ],
+      "baseStats": {
+        "speed": 80
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Goodra",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/7/73/latest/20260417162435/Goodra_icono_Champions.png",
+        "imageAlt": "Ilustración de Goodra en WikiDex"
+      }
+    },
+    {
+      "id": "goodra-de-hisui",
+      "dexNumber": 706,
+      "displayName": "Goodra de Hisui",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Acero",
+        "Dragón"
+      ],
+      "baseStats": {
+        "speed": 60
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Goodra_de_Hisui",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/6/65/latest/20260417162742/Goodra_de_Hisui_icono_Champions.png",
+        "imageAlt": "Ilustración de Goodra de Hisui en WikiDex"
+      }
+    },
+    {
+      "id": "klefki",
+      "dexNumber": 707,
+      "displayName": "Klefki",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Acero",
+        "Hada"
+      ],
+      "baseStats": {
+        "speed": 75
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Klefki",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/e/eb/latest/20260417162731/Klefki_icono_Champions.png",
+        "imageAlt": "Ilustración de Klefki en WikiDex"
+      }
+    },
+    {
+      "id": "trevenant",
+      "dexNumber": 709,
+      "displayName": "Trevenant",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Fantasma",
+        "Planta"
+      ],
+      "baseStats": {
+        "speed": 56
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Trevenant",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/b/b6/latest/20260417162500/Trevenant_icono_Champions.png",
+        "imageAlt": "Ilustración de Trevenant en WikiDex"
+      }
+    },
+    {
+      "id": "gourgeist",
+      "dexNumber": 711,
+      "displayName": "Gourgeist (Variante Mediana)",
+      "form": "Variante Mediana",
+      "isMega": false,
+      "types": [
+        "Fantasma",
+        "Planta"
+      ],
+      "baseStats": {
+        "speed": 99
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Gourgeist",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/4/41/latest/20260417162515/Gourgeist_icono_Champions.png",
+        "imageAlt": "Ilustración de Gourgeist (Variante Mediana) en WikiDex"
+      }
+    },
+    {
+      "id": "gourgeist-2",
+      "dexNumber": 711,
+      "displayName": "Gourgeist (Variante Pequeña)",
+      "form": "Variante Pequeña",
+      "isMega": false,
+      "types": [
+        "Fantasma",
+        "Planta"
+      ],
+      "baseStats": {
+        "speed": 99
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Gourgeist",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/d/d2/latest/20260417162615/Gourgeist_peque%C3%B1a_icono_Champions.png",
+        "imageAlt": "Ilustración de Gourgeist (Variante Pequeña) en WikiDex"
+      }
+    },
+    {
+      "id": "gourgeist-3",
+      "dexNumber": 711,
+      "displayName": "Gourgeist (Variante Grande)",
+      "form": "Variante Grande",
+      "isMega": false,
+      "types": [
+        "Fantasma",
+        "Planta"
+      ],
+      "baseStats": {
+        "speed": 99
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Gourgeist",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/4/48/latest/20260417162528/Gourgeist_grande_icono_Champions.png",
+        "imageAlt": "Ilustración de Gourgeist (Variante Grande) en WikiDex"
+      }
+    },
+    {
+      "id": "gourgeist-4",
+      "dexNumber": 711,
+      "displayName": "Gourgeist (Variante Enorme)",
+      "form": "Variante Enorme",
+      "isMega": false,
+      "types": [
+        "Fantasma",
+        "Planta"
+      ],
+      "baseStats": {
+        "speed": 99
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Gourgeist",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/e/ef/latest/20260417162459/Gourgeist_enorme_icono_Champions.png",
+        "imageAlt": "Ilustración de Gourgeist (Variante Enorme) en WikiDex"
+      }
+    },
+    {
+      "id": "avalugg",
+      "dexNumber": 713,
+      "displayName": "Avalugg",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Hielo"
+      ],
+      "baseStats": {
+        "speed": 28
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Avalugg",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/6/60/latest/20260417162913/Avalugg_icono_Champions.png",
+        "imageAlt": "Ilustración de Avalugg en WikiDex"
+      }
+    },
+    {
+      "id": "avalugg-de-hisui",
+      "dexNumber": 713,
+      "displayName": "Avalugg de Hisui",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Hielo",
+        "Roca"
+      ],
+      "baseStats": {
+        "speed": 38
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Avalugg_de_Hisui",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/0/05/latest/20260417162727/Avalugg_de_Hisui_icono_Champions.png",
+        "imageAlt": "Ilustración de Avalugg de Hisui en WikiDex"
+      }
+    },
+    {
+      "id": "noivern",
+      "dexNumber": 715,
+      "displayName": "Noivern",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Volador",
+        "Dragón"
+      ],
+      "baseStats": {
+        "speed": 123
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Noivern",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/b/bc/latest/20260417162737/Noivern_icono_Champions.png",
+        "imageAlt": "Ilustración de Noivern en WikiDex"
+      }
+    },
+    {
+      "id": "decidueye",
+      "dexNumber": 724,
+      "displayName": "Decidueye",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Planta",
+        "Fantasma"
+      ],
+      "baseStats": {
+        "speed": 70
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Decidueye",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/d/da/latest/20260417162749/Decidueye_icono_Champions.png",
+        "imageAlt": "Ilustración de Decidueye en WikiDex"
+      }
+    },
+    {
+      "id": "decidueye-de-hisui",
+      "dexNumber": 724,
+      "displayName": "Decidueye de Hisui",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Planta",
+        "Lucha"
+      ],
+      "baseStats": {
+        "speed": 60
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Decidueye_de_Hisui",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/8/85/latest/20260417162442/Decidueye_de_Hisui_icono_Champions.png",
+        "imageAlt": "Ilustración de Decidueye de Hisui en WikiDex"
+      }
+    },
+    {
+      "id": "incineroar",
+      "dexNumber": 727,
+      "displayName": "Incineroar",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Fuego",
+        "Siniestro"
+      ],
+      "baseStats": {
+        "speed": 60
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Incineroar",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/4/4a/latest/20260417162717/Incineroar_icono_Champions.png",
+        "imageAlt": "Ilustración de Incineroar en WikiDex"
+      }
+    },
+    {
+      "id": "primarina",
+      "dexNumber": 730,
+      "displayName": "Primarina",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Agua",
+        "Hada"
+      ],
+      "baseStats": {
+        "speed": 60
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Primarina",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/b/b8/latest/20260417162542/Primarina_icono_Champions.png",
+        "imageAlt": "Ilustración de Primarina en WikiDex"
+      }
+    },
+    {
+      "id": "toucannon",
+      "dexNumber": 733,
+      "displayName": "Toucannon",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Normal",
+        "Volador"
+      ],
+      "baseStats": {
+        "speed": 60
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Toucannon",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/1/18/latest/20260417162857/Toucannon_icono_Champions.png",
+        "imageAlt": "Ilustración de Toucannon en WikiDex"
+      }
+    },
+    {
+      "id": "crabominable",
+      "dexNumber": 740,
+      "displayName": "Crabominable",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Lucha",
+        "Hielo"
+      ],
+      "baseStats": {
+        "speed": 43
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Crabominable",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/f/f4/latest/20260417163004/Crabominable_icono_Champions.png",
+        "imageAlt": "Ilustración de Crabominable en WikiDex"
+      }
+    },
+    {
+      "id": "lycanroc",
+      "dexNumber": 745,
+      "displayName": "Lycanroc",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Roca"
+      ],
+      "baseStats": {
+        "speed": 112
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Lycanroc",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/1/1a/latest/20260417162506/Lycanroc_diurno_icono_Champions.png",
+        "imageAlt": "Ilustración de Lycanroc en WikiDex"
+      }
+    },
+    {
+      "id": "lycanroc-nocturno",
+      "dexNumber": 745,
+      "displayName": "Lycanroc nocturno",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Roca"
+      ],
+      "baseStats": {
+        "speed": 112
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Lycanroc",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/e/e9/latest/20260417162614/Lycanroc_nocturno_icono_Champions.png",
+        "imageAlt": "Ilustración de Lycanroc nocturno en WikiDex"
+      }
+    },
+    {
+      "id": "lycanroc-crepuscular",
+      "dexNumber": 745,
+      "displayName": "Lycanroc crepuscular",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Roca"
+      ],
+      "baseStats": {
+        "speed": 112
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Lycanroc",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/4/4f/latest/20260417162647/Lycanroc_crepuscular_icono_Champions.png",
+        "imageAlt": "Ilustración de Lycanroc crepuscular en WikiDex"
+      }
+    },
+    {
+      "id": "toxapex",
+      "dexNumber": 748,
+      "displayName": "Toxapex",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Veneno",
+        "Agua"
+      ],
+      "baseStats": {
+        "speed": 35
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Toxapex",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/9/96/latest/20260417162516/Toxapex_icono_Champions.png",
+        "imageAlt": "Ilustración de Toxapex en WikiDex"
+      }
+    },
+    {
+      "id": "mudsdale",
+      "dexNumber": 750,
+      "displayName": "Mudsdale",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Tierra"
+      ],
+      "baseStats": {
+        "speed": 35
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Mudsdale",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/9/98/latest/20260417162950/Mudsdale_icono_Champions.png",
+        "imageAlt": "Ilustración de Mudsdale en WikiDex"
+      }
+    },
+    {
+      "id": "araquanid",
+      "dexNumber": 752,
+      "displayName": "Araquanid",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Agua",
+        "Bicho"
+      ],
+      "baseStats": {
+        "speed": 42
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Araquanid",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/b/b6/latest/20260417162634/Araquanid_icono_Champions.png",
+        "imageAlt": "Ilustración de Araquanid en WikiDex"
+      }
+    },
+    {
+      "id": "salazzle",
+      "dexNumber": 758,
+      "displayName": "Salazzle",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Veneno",
+        "Fuego"
+      ],
+      "baseStats": {
+        "speed": 117
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Salazzle",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/d/d6/latest/20260417163012/Salazzle_icono_Champions.png",
+        "imageAlt": "Ilustración de Salazzle en WikiDex"
+      }
+    },
+    {
+      "id": "tsareena",
+      "dexNumber": 763,
+      "displayName": "Tsareena",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Planta"
+      ],
+      "baseStats": {
+        "speed": 72
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Tsareena",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/4/40/latest/20260417162449/Tsareena_icono_Champions.png",
+        "imageAlt": "Ilustración de Tsareena en WikiDex"
+      }
+    },
+    {
+      "id": "oranguru",
+      "dexNumber": 765,
+      "displayName": "Oranguru",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Normal",
+        "Psíquico"
+      ],
+      "baseStats": {
+        "speed": 60
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Oranguru",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/9/92/latest/20260417162809/Oranguru_icono_Champions.png",
+        "imageAlt": "Ilustración de Oranguru en WikiDex"
+      }
+    },
+    {
+      "id": "passimian",
+      "dexNumber": 766,
+      "displayName": "Passimian",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Lucha"
+      ],
+      "baseStats": {
+        "speed": 80
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Passimian",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/d/d0/latest/20260417162534/Passimian_icono_Champions.png",
+        "imageAlt": "Ilustración de Passimian en WikiDex"
+      }
+    },
+    {
+      "id": "mimikyu",
+      "dexNumber": 778,
+      "displayName": "Mimikyu",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Fantasma",
+        "Hada"
+      ],
+      "baseStats": {
+        "speed": 96
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Mimikyu",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/a/ab/latest/20260417162527/Mimikyu_icono_Champions.png",
+        "imageAlt": "Ilustración de Mimikyu en WikiDex"
+      }
+    },
+    {
+      "id": "drampa",
+      "dexNumber": 780,
+      "displayName": "Drampa",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Normal",
+        "Dragón"
+      ],
+      "baseStats": {
+        "speed": 36
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Drampa",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/c/cc/latest/20260417162416/Drampa_icono_Champions.png",
+        "imageAlt": "Ilustración de Drampa en WikiDex"
+      }
+    },
+    {
+      "id": "kommo-o",
+      "dexNumber": 784,
+      "displayName": "Kommo-o",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Dragón",
+        "Lucha"
+      ],
+      "baseStats": {
+        "speed": 85
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Kommo-o",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/d/d2/latest/20260417162940/Kommo-o_icono_Champions.png",
+        "imageAlt": "Ilustración de Kommo-o en WikiDex"
+      }
+    },
+    {
+      "id": "corviknight",
+      "dexNumber": 823,
+      "displayName": "Corviknight",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Volador",
+        "Acero"
+      ],
+      "baseStats": {
+        "speed": 67
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Corviknight",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/3/3d/latest/20260417162444/Corviknight_icono_Champions.png",
+        "imageAlt": "Ilustración de Corviknight en WikiDex"
+      }
+    },
+    {
+      "id": "flapple",
+      "dexNumber": 841,
+      "displayName": "Flapple",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Planta",
+        "Dragón"
+      ],
+      "baseStats": {
+        "speed": 70
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Flapple",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/d/db/latest/20260417162606/Flapple_icono_Champions.png",
+        "imageAlt": "Ilustración de Flapple en WikiDex"
+      }
+    },
+    {
+      "id": "appletun",
+      "dexNumber": 842,
+      "displayName": "Appletun",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Planta",
+        "Dragón"
+      ],
+      "baseStats": {
+        "speed": 30
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Appletun",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/0/01/latest/20260417162703/Appletun_icono_Champions.png",
+        "imageAlt": "Ilustración de Appletun en WikiDex"
+      }
+    },
+    {
+      "id": "sandaconda",
+      "dexNumber": 844,
+      "displayName": "Sandaconda",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Tierra"
+      ],
+      "baseStats": {
+        "speed": 71
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Sandaconda",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/0/08/latest/20260417162602/Sandaconda_icono_Champions.png",
+        "imageAlt": "Ilustración de Sandaconda en WikiDex"
+      }
+    },
+    {
+      "id": "polteageist",
+      "dexNumber": 855,
+      "displayName": "Polteageist",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Fantasma"
+      ],
+      "baseStats": {
+        "speed": 70
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Polteageist",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/1/11/latest/20260417162806/Polteageist_icono_Champions.png",
+        "imageAlt": "Ilustración de Polteageist en WikiDex"
+      }
+    },
+    {
+      "id": "hatterene",
+      "dexNumber": 858,
+      "displayName": "Hatterene",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Psíquico",
+        "Hada"
+      ],
+      "baseStats": {
+        "speed": 29
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Hatterene",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/d/d7/latest/20260417162954/Hatterene_icono_Champions.png",
+        "imageAlt": "Ilustración de Hatterene en WikiDex"
+      }
+    },
+    {
+      "id": "grimmsnarl",
+      "dexNumber": 861,
+      "displayName": "Grimmsnarl",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Siniestro",
+        "Hada"
+      ],
+      "baseStats": {
+        "speed": 60
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Grimmsnarl",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/a/a6/latest/20260617201401/Grimmsnarl_icono_Champions.png",
+        "imageAlt": "Ilustración de Grimmsnarl en WikiDex"
+      }
+    },
+    {
+      "id": "mr-rime",
+      "dexNumber": 866,
+      "displayName": "Mr. Rime",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Hielo",
+        "Psíquico"
+      ],
+      "baseStats": {
+        "speed": 70
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Mr._Rime",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/7/75/latest/20260417162945/Mr._Rime_icono_Champions.png",
+        "imageAlt": "Ilustración de Mr. Rime en WikiDex"
+      }
+    },
+    {
+      "id": "runerigus",
+      "dexNumber": 867,
+      "displayName": "Runerigus",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Tierra",
+        "Fantasma"
+      ],
+      "baseStats": {
+        "speed": 30
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Runerigus",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/b/b6/latest/20260417162617/Runerigus_icono_Champions.png",
+        "imageAlt": "Ilustración de Runerigus en WikiDex"
+      }
+    },
+    {
+      "id": "alcremie",
+      "dexNumber": 869,
+      "displayName": "Alcremie",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Hada"
+      ],
+      "baseStats": {
+        "speed": 64
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Alcremie",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/5/5a/latest/20260417162906/Alcremie_icono_Champions.png",
+        "imageAlt": "Ilustración de Alcremie en WikiDex"
+      }
+    },
+    {
+      "id": "falinks",
+      "dexNumber": 870,
+      "displayName": "Falinks",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Lucha"
+      ],
+      "baseStats": {
+        "speed": 75
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Falinks",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/5/52/latest/20260617220300/Falinks_icono_Champions.png",
+        "imageAlt": "Ilustración de Falinks en WikiDex"
+      }
+    },
+    {
+      "id": "morpeko",
+      "dexNumber": 877,
+      "displayName": "Morpeko",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Eléctrico",
+        "Siniestro"
+      ],
+      "baseStats": {
+        "speed": 97
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Morpeko",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/1/14/latest/20260417162532/Morpeko_icono_Champions.png",
+        "imageAlt": "Ilustración de Morpeko en WikiDex"
+      }
+    },
+    {
+      "id": "dragapult",
+      "dexNumber": 887,
+      "displayName": "Dragapult",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Dragón",
+        "Fantasma"
+      ],
+      "baseStats": {
+        "speed": 142
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Dragapult",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/7/75/latest/20260417162451/Dragapult_icono_Champions.png",
+        "imageAlt": "Ilustración de Dragapult en WikiDex"
+      }
+    },
+    {
+      "id": "wyrdeer",
+      "dexNumber": 899,
+      "displayName": "Wyrdeer",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Normal",
+        "Psíquico"
+      ],
+      "baseStats": {
+        "speed": 65
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Wyrdeer",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/b/b3/latest/20260417162959/Wyrdeer_icono_Champions.png",
+        "imageAlt": "Ilustración de Wyrdeer en WikiDex"
+      }
+    },
+    {
+      "id": "kleavor",
+      "dexNumber": 900,
+      "displayName": "Kleavor",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Bicho",
+        "Roca"
+      ],
+      "baseStats": {
+        "speed": 85
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Kleavor",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/d/d6/latest/20260417162955/Kleavor_icono_Champions.png",
+        "imageAlt": "Ilustración de Kleavor en WikiDex"
+      }
+    },
+    {
+      "id": "basculegion",
+      "dexNumber": 902,
+      "displayName": "Basculegion (Macho)",
+      "form": "Macho",
+      "isMega": false,
+      "types": [
+        "Agua",
+        "Fantasma"
+      ],
+      "baseStats": {
+        "speed": 78
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Basculegion",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/e/e6/latest/20260417162611/Basculegion_icono_Champions.png",
+        "imageAlt": "Ilustración de Basculegion (Macho) en WikiDex"
+      }
+    },
+    {
+      "id": "basculegion-2",
+      "dexNumber": 902,
+      "displayName": "Basculegion (Hembra)",
+      "form": "Hembra",
+      "isMega": false,
+      "types": [
+        "Agua",
+        "Fantasma"
+      ],
+      "baseStats": {
+        "speed": 78
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Basculegion",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/5/58/latest/20260417162919/Basculegion_icono_Champions_hembra.png",
+        "imageAlt": "Ilustración de Basculegion (Hembra) en WikiDex"
+      }
+    },
+    {
+      "id": "sneasler",
+      "dexNumber": 903,
+      "displayName": "Sneasler",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Lucha",
+        "Veneno"
+      ],
+      "baseStats": {
+        "speed": 120
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Sneasler",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/d/d4/latest/20260417162722/Sneasler_icono_Champions.png",
+        "imageAlt": "Ilustración de Sneasler en WikiDex"
+      }
+    },
+    {
+      "id": "overqwil",
+      "dexNumber": 904,
+      "displayName": "Overqwil",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Siniestro",
+        "Veneno"
+      ],
+      "baseStats": {
+        "speed": 85
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Overqwil",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/9/9b/latest/20260617201257/Overqwil_icono_Champions.png",
+        "imageAlt": "Ilustración de Overqwil en WikiDex"
+      }
+    },
+    {
+      "id": "meowscarada",
+      "dexNumber": 908,
+      "displayName": "Meowscarada",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Planta",
+        "Siniestro"
+      ],
+      "baseStats": {
+        "speed": 123
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Meowscarada",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/d/d9/latest/20260417162607/Meowscarada_icono_Champions.png",
+        "imageAlt": "Ilustración de Meowscarada en WikiDex"
+      }
+    },
+    {
+      "id": "skeledirge",
+      "dexNumber": 911,
+      "displayName": "Skeledirge",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Fuego",
+        "Fantasma"
+      ],
+      "baseStats": {
+        "speed": 66
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Skeledirge",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/a/a0/latest/20260417162725/Skeledirge_icono_Champions.png",
+        "imageAlt": "Ilustración de Skeledirge en WikiDex"
+      }
+    },
+    {
+      "id": "quaquaval",
+      "dexNumber": 914,
+      "displayName": "Quaquaval",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Agua",
+        "Lucha"
+      ],
+      "baseStats": {
+        "speed": 85
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Quaquaval",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/4/47/latest/20260417162505/Quaquaval_icono_Champions.png",
+        "imageAlt": "Ilustración de Quaquaval en WikiDex"
+      }
+    },
+    {
+      "id": "maushold",
+      "dexNumber": 925,
+      "displayName": "Maushold",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Normal"
+      ],
+      "baseStats": {
+        "speed": 111
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Maushold",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/8/82/latest/20260417162845/Maushold_familia_de_cuatro_icono_Champions.png",
+        "imageAlt": "Ilustración de Maushold en WikiDex"
+      }
+    },
+    {
+      "id": "garganacl",
+      "dexNumber": 934,
+      "displayName": "Garganacl",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Roca"
+      ],
+      "baseStats": {
+        "speed": 35
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Garganacl",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/2/24/latest/20260417162704/Garganacl_icono_Champions.png",
+        "imageAlt": "Ilustración de Garganacl en WikiDex"
+      }
+    },
+    {
+      "id": "armarouge",
+      "dexNumber": 936,
+      "displayName": "Armarouge",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Fuego",
+        "Psíquico"
+      ],
+      "baseStats": {
+        "speed": 75
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Armarouge",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/0/01/latest/20260417162524/Armarouge_icono_Champions.png",
+        "imageAlt": "Ilustración de Armarouge en WikiDex"
+      }
+    },
+    {
+      "id": "ceruledge",
+      "dexNumber": 937,
+      "displayName": "Ceruledge",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Fuego",
+        "Fantasma"
+      ],
+      "baseStats": {
+        "speed": 85
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Ceruledge",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/f/f0/latest/20260417162931/Ceruledge_icono_Champions.png",
+        "imageAlt": "Ilustración de Ceruledge en WikiDex"
+      }
+    },
+    {
+      "id": "bellibolt",
+      "dexNumber": 939,
+      "displayName": "Bellibolt",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Eléctrico"
+      ],
+      "baseStats": {
+        "speed": 45
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Bellibolt",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/6/6d/latest/20260417162858/Bellibolt_icono_Champions.png",
+        "imageAlt": "Ilustración de Bellibolt en WikiDex"
+      }
+    },
+    {
+      "id": "scovillain",
+      "dexNumber": 952,
+      "displayName": "Scovillain",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Planta",
+        "Fuego"
+      ],
+      "baseStats": {
+        "speed": 75
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Scovillain",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/4/46/latest/20260417162918/Scovillain_icono_Champions.png",
+        "imageAlt": "Ilustración de Scovillain en WikiDex"
+      }
+    },
+    {
+      "id": "espathra",
+      "dexNumber": 956,
+      "displayName": "Espathra",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Psíquico"
+      ],
+      "baseStats": {
+        "speed": 105
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Espathra",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/f/fd/latest/20260417162748/Espathra_icono_Champions.png",
+        "imageAlt": "Ilustración de Espathra en WikiDex"
+      }
+    },
+    {
+      "id": "tinkaton",
+      "dexNumber": 959,
+      "displayName": "Tinkaton",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Hada",
+        "Acero"
+      ],
+      "baseStats": {
+        "speed": 94
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Tinkaton",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/9/9b/latest/20260417162531/Tinkaton_icono_Champions.png",
+        "imageAlt": "Ilustración de Tinkaton en WikiDex"
+      }
+    },
+    {
+      "id": "palafin",
+      "dexNumber": 964,
+      "displayName": "Palafin",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Agua"
+      ],
+      "baseStats": {
+        "speed": 100
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Palafin",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/3/3b/latest/20260417162648/Palafin_heroica_icono_Champions.png",
+        "imageAlt": "Ilustración de Palafin en WikiDex"
+      }
+    },
+    {
+      "id": "orthworm",
+      "dexNumber": 968,
+      "displayName": "Orthworm",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Acero"
+      ],
+      "baseStats": {
+        "speed": 65
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Orthworm",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/c/ce/latest/20260417162943/Orthworm_icono_Champions.png",
+        "imageAlt": "Ilustración de Orthworm en WikiDex"
+      }
+    },
+    {
+      "id": "glimmora",
+      "dexNumber": 970,
+      "displayName": "Glimmora",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Roca",
+        "Veneno"
+      ],
+      "baseStats": {
+        "speed": 86
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Glimmora",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/c/c0/latest/20260417162656/Glimmora_icono_Champions.png",
+        "imageAlt": "Ilustración de Glimmora en WikiDex"
+      }
+    },
+    {
+      "id": "houndstone",
+      "dexNumber": 972,
+      "displayName": "Houndstone",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Fantasma"
+      ],
+      "baseStats": {
+        "speed": 68
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Houndstone",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/6/60/latest/20260617201041/Houndstone_icono_Champions.png",
+        "imageAlt": "Ilustración de Houndstone en WikiDex"
+      }
+    },
+    {
+      "id": "annihilape",
+      "dexNumber": 979,
+      "displayName": "Annihilape",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Lucha",
+        "Fantasma"
+      ],
+      "baseStats": {
+        "speed": 90
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Annihilape",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/3/37/latest/20260617201130/Annihilape_icono_Champions.png",
+        "imageAlt": "Ilustración de Annihilape en WikiDex"
+      }
+    },
+    {
+      "id": "farigiraf",
+      "dexNumber": 981,
+      "displayName": "Farigiraf",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Normal",
+        "Psíquico"
+      ],
+      "baseStats": {
+        "speed": 60
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Farigiraf",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/d/d4/latest/20260417162623/Farigiraf_icono_Champions.png",
+        "imageAlt": "Ilustración de Farigiraf en WikiDex"
+      }
+    },
+    {
+      "id": "kingambit",
+      "dexNumber": 983,
+      "displayName": "Kingambit",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Siniestro",
+        "Acero"
+      ],
+      "baseStats": {
+        "speed": 50
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Kingambit",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/d/de/latest/20260417162550/Kingambit_icono_Champions.png",
+        "imageAlt": "Ilustración de Kingambit en WikiDex"
+      }
+    },
+    {
+      "id": "gholdengo",
+      "dexNumber": 1000,
+      "displayName": "Gholdengo",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Acero",
+        "Fantasma"
+      ],
+      "baseStats": {
+        "speed": 84
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Gholdengo",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/d/dd/latest/20260617200947/Gholdengo_icono_Champions.png",
+        "imageAlt": "Ilustración de Gholdengo en WikiDex"
+      }
+    },
+    {
+      "id": "sinistcha",
+      "dexNumber": 1013,
+      "displayName": "Sinistcha",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Planta",
+        "Fantasma"
+      ],
+      "baseStats": {
+        "speed": 70
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Sinistcha",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/5/52/latest/20260417162734/Sinistcha_icono_Champions.png",
+        "imageAlt": "Ilustración de Sinistcha en WikiDex"
+      }
+    },
+    {
+      "id": "archaludon",
+      "dexNumber": 1018,
+      "displayName": "Archaludon",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Acero",
+        "Dragón"
+      ],
+      "baseStats": {
+        "speed": 85
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Archaludon",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/2/2e/latest/20260417162935/Archaludon_icono_Champions.png",
+        "imageAlt": "Ilustración de Archaludon en WikiDex"
+      }
+    },
+    {
+      "id": "hydrapple",
+      "dexNumber": 1019,
+      "displayName": "Hydrapple",
+      "form": null,
+      "isMega": false,
+      "types": [
+        "Planta",
+        "Dragón"
+      ],
+      "baseStats": {
+        "speed": 44
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Hydrapple",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/f/ff/latest/20260417162744/Hydrapple_icono_Champions.png",
+        "imageAlt": "Ilustración de Hydrapple en WikiDex"
+      }
+    },
+    {
+      "id": "mega-venusaur",
+      "dexNumber": 3,
+      "displayName": "Mega-Venusaur",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Planta",
+        "Veneno"
+      ],
+      "baseStats": {
+        "speed": 80
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Venusaur",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/d/da/latest/20260417162735/Mega-Venusaur_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Venusaur en WikiDex"
+      }
+    },
+    {
+      "id": "mega-charizard-x",
+      "dexNumber": 6,
+      "displayName": "Mega-Charizard X",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Fuego",
+        "Dragón"
+      ],
+      "baseStats": {
+        "speed": 100
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Charizard",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/0/04/latest/20260417163009/Mega-Charizard_X_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Charizard X en WikiDex"
+      }
+    },
+    {
+      "id": "mega-charizard-y",
+      "dexNumber": 6,
+      "displayName": "Mega-Charizard Y",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Fuego",
+        "Volador"
+      ],
+      "baseStats": {
+        "speed": 100
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Charizard",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/7/7e/latest/20260417162917/Mega-Charizard_Y_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Charizard Y en WikiDex"
+      }
+    },
+    {
+      "id": "mega-blastoise",
+      "dexNumber": 9,
+      "displayName": "Mega-Blastoise",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Agua"
+      ],
+      "baseStats": {
+        "speed": 78
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Blastoise",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/1/1d/latest/20260417162848/Mega-Blastoise_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Blastoise en WikiDex"
+      }
+    },
+    {
+      "id": "mega-beedrill",
+      "dexNumber": 15,
+      "displayName": "Mega-Beedrill",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Bicho",
+        "Veneno"
+      ],
+      "baseStats": {
+        "speed": 145
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Beedrill",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/7/7b/latest/20260417162526/Mega-Beedrill_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Beedrill en WikiDex"
+      }
+    },
+    {
+      "id": "mega-pidgeot",
+      "dexNumber": 18,
+      "displayName": "Mega-Pidgeot",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Normal",
+        "Volador"
+      ],
+      "baseStats": {
+        "speed": 121
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Pidgeot",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/6/69/latest/20260417162641/Mega-Pidgeot_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Pidgeot en WikiDex"
+      }
+    },
+    {
+      "id": "mega-raichu-x",
+      "dexNumber": 26,
+      "displayName": "Mega-Raichu X",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Eléctrico"
+      ],
+      "baseStats": {
+        "speed": 110
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Raichu",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/e/ea/latest/20260617140246/Mega-Raichu_X_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Raichu X en WikiDex"
+      }
+    },
+    {
+      "id": "mega-raichu-y",
+      "dexNumber": 26,
+      "displayName": "Mega-Raichu Y",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Eléctrico"
+      ],
+      "baseStats": {
+        "speed": 130
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Raichu",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/2/2e/latest/20260617140324/Mega-Raichu_Y_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Raichu Y en WikiDex"
+      }
+    },
+    {
+      "id": "mega-clefable",
+      "dexNumber": 36,
+      "displayName": "Mega-Clefable",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Hada",
+        "Volador"
+      ],
+      "baseStats": {
+        "speed": 70
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Clefable",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/1/16/latest/20260417162429/Mega-Clefable_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Clefable en WikiDex"
+      }
+    },
+    {
+      "id": "mega-alakazam",
+      "dexNumber": 65,
+      "displayName": "Mega-Alakazam",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Psíquico"
+      ],
+      "baseStats": {
+        "speed": 150
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Alakazam",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/0/07/latest/20260417162613/Mega-Alakazam_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Alakazam en WikiDex"
+      }
+    },
+    {
+      "id": "mega-victreebel",
+      "dexNumber": 71,
+      "displayName": "Mega-Victreebel",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Planta",
+        "Veneno"
+      ],
+      "baseStats": {
+        "speed": 70
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Victreebel",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/9/92/latest/20260417162811/Mega-Victreebel_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Victreebel en WikiDex"
+      }
+    },
+    {
+      "id": "mega-slowbro",
+      "dexNumber": 80,
+      "displayName": "Mega-Slowbro",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Agua",
+        "Psíquico"
+      ],
+      "baseStats": {
+        "speed": 30
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Slowbro",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/7/76/latest/20260417162640/Mega-Slowbro_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Slowbro en WikiDex"
+      }
+    },
+    {
+      "id": "mega-gengar",
+      "dexNumber": 94,
+      "displayName": "Mega-Gengar",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Fantasma",
+        "Veneno"
+      ],
+      "baseStats": {
+        "speed": 130
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Gengar",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/6/64/latest/20260417162633/Mega-Gengar_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Gengar en WikiDex"
+      }
+    },
+    {
+      "id": "mega-kangaskhan",
+      "dexNumber": 115,
+      "displayName": "Mega-Kangaskhan",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Normal"
+      ],
+      "baseStats": {
+        "speed": 100
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Kangaskhan",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/8/85/latest/20260417162956/Mega-Kangaskhan_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Kangaskhan en WikiDex"
+      }
+    },
+    {
+      "id": "mega-starmie",
+      "dexNumber": 121,
+      "displayName": "Mega-Starmie",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Agua",
+        "Psíquico"
+      ],
+      "baseStats": {
+        "speed": 120
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Starmie",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/b/b5/latest/20260417162558/Mega-Starmie_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Starmie en WikiDex"
+      }
+    },
+    {
+      "id": "mega-pinsir",
+      "dexNumber": 127,
+      "displayName": "Mega-Pinsir",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Bicho",
+        "Volador"
+      ],
+      "baseStats": {
+        "speed": 105
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Pinsir",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/9/93/latest/20260417162832/Mega-Pinsir_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Pinsir en WikiDex"
+      }
+    },
+    {
+      "id": "mega-gyarados",
+      "dexNumber": 130,
+      "displayName": "Mega-Gyarados",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Agua",
+        "Volador"
+      ],
+      "baseStats": {
+        "speed": 81
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Gyarados",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/7/71/latest/20260417162707/Mega-Gyarados_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Gyarados en WikiDex"
+      }
+    },
+    {
+      "id": "mega-aerodactyl",
+      "dexNumber": 142,
+      "displayName": "Mega-Aerodactyl",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Roca",
+        "Volador"
+      ],
+      "baseStats": {
+        "speed": 150
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Aerodactyl",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/d/dc/latest/20260417162452/Mega-Aerodactyl_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Aerodactyl en WikiDex"
+      }
+    },
+    {
+      "id": "mega-dragonite",
+      "dexNumber": 149,
+      "displayName": "Mega-Dragonite",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Dragón",
+        "Volador"
+      ],
+      "baseStats": {
+        "speed": 100
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Dragonite",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/0/01/latest/20260417162745/Mega-Dragonite_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Dragonite en WikiDex"
+      }
+    },
+    {
+      "id": "mega-meganium",
+      "dexNumber": 154,
+      "displayName": "Mega-Meganium",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Planta",
+        "Hada"
+      ],
+      "baseStats": {
+        "speed": 80
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Meganium",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/a/aa/latest/20260417162434/Mega-Meganium_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Meganium en WikiDex"
+      }
+    },
+    {
+      "id": "mega-feraligatr",
+      "dexNumber": 160,
+      "displayName": "Mega-Feraligatr",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Agua",
+        "Dragón"
+      ],
+      "baseStats": {
+        "speed": 78
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Feraligatr",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/1/12/latest/20260417162644/Mega-Feraligatr_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Feraligatr en WikiDex"
+      }
+    },
+    {
+      "id": "mega-ampharos",
+      "dexNumber": 181,
+      "displayName": "Mega-Ampharos",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Eléctrico",
+        "Dragón"
+      ],
+      "baseStats": {
+        "speed": 45
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Ampharos",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/5/5f/latest/20260417162941/Mega-Ampharos_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Ampharos en WikiDex"
+      }
+    },
+    {
+      "id": "mega-steelix",
+      "dexNumber": 208,
+      "displayName": "Mega-Steelix",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Acero",
+        "Tierra"
+      ],
+      "baseStats": {
+        "speed": 30
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Steelix",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/f/f0/latest/20260417162616/Mega-Steelix_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Steelix en WikiDex"
+      }
+    },
+    {
+      "id": "mega-scizor",
+      "dexNumber": 212,
+      "displayName": "Mega-Scizor",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Bicho",
+        "Acero"
+      ],
+      "baseStats": {
+        "speed": 75
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Scizor",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/d/db/latest/20260417162540/Mega-Scizor_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Scizor en WikiDex"
+      }
+    },
+    {
+      "id": "mega-heracross",
+      "dexNumber": 214,
+      "displayName": "Mega-Heracross",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Bicho",
+        "Lucha"
+      ],
+      "baseStats": {
+        "speed": 75
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Heracross",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/1/14/latest/20260417162804/Mega-Heracross_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Heracross en WikiDex"
+      }
+    },
+    {
+      "id": "mega-skarmory",
+      "dexNumber": 227,
+      "displayName": "Mega-Skarmory",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Acero",
+        "Volador"
+      ],
+      "baseStats": {
+        "speed": 110
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Skarmory",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/7/79/latest/20260417162936/Mega-Skarmory_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Skarmory en WikiDex"
+      }
+    },
+    {
+      "id": "mega-houndoom",
+      "dexNumber": 229,
+      "displayName": "Mega-Houndoom",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Siniestro",
+        "Fuego"
+      ],
+      "baseStats": {
+        "speed": 115
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Houndoom",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/c/c9/latest/20260417162910/Mega-Houndoom_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Houndoom en WikiDex"
+      }
+    },
+    {
+      "id": "mega-tyranitar",
+      "dexNumber": 248,
+      "displayName": "Mega-Tyranitar",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Roca",
+        "Siniestro"
+      ],
+      "baseStats": {
+        "speed": 71
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Tyranitar",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/c/c4/latest/20260417162837/Mega-Tyranitar_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Tyranitar en WikiDex"
+      }
+    },
+    {
+      "id": "mega-sceptile",
+      "dexNumber": 254,
+      "displayName": "Mega-Sceptile",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Planta",
+        "Dragón"
+      ],
+      "baseStats": {
+        "speed": 145
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Sceptile",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/8/83/latest/20260617140936/Mega-Sceptile_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Sceptile en WikiDex"
+      }
+    },
+    {
+      "id": "mega-blaziken",
+      "dexNumber": 257,
+      "displayName": "Mega-Blaziken",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Fuego",
+        "Lucha"
+      ],
+      "baseStats": {
+        "speed": 100
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Blaziken",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/a/a5/latest/20260617141156/Mega-Blaziken_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Blaziken en WikiDex"
+      }
+    },
+    {
+      "id": "mega-swampert",
+      "dexNumber": 260,
+      "displayName": "Mega-Swampert",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Agua",
+        "Tierra"
+      ],
+      "baseStats": {
+        "speed": 70
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Swampert",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/3/36/latest/20260617140839/Mega-Swampert_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Swampert en WikiDex"
+      }
+    },
+    {
+      "id": "mega-gardevoir",
+      "dexNumber": 282,
+      "displayName": "Mega-Gardevoir",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Psíquico",
+        "Hada"
+      ],
+      "baseStats": {
+        "speed": 100
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Gardevoir",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/a/aa/latest/20260417162513/Mega-Gardevoir_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Gardevoir en WikiDex"
+      }
+    },
+    {
+      "id": "mega-sableye",
+      "dexNumber": 302,
+      "displayName": "Mega-Sableye",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Siniestro",
+        "Fantasma"
+      ],
+      "baseStats": {
+        "speed": 20
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Sableye",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/1/10/latest/20260417162808/Mega-Sableye_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Sableye en WikiDex"
+      }
+    },
+    {
+      "id": "mega-mawile",
+      "dexNumber": 303,
+      "displayName": "Mega-Mawile",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Acero",
+        "Hada"
+      ],
+      "baseStats": {
+        "speed": 50
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Mawile",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/c/c9/latest/20260617141059/Mega-Mawile_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Mawile en WikiDex"
+      }
+    },
+    {
+      "id": "mega-aggron",
+      "dexNumber": 306,
+      "displayName": "Mega-Aggron",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Acero",
+        "Roca"
+      ],
+      "baseStats": {
+        "speed": 50
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Aggron",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/9/95/latest/20260417162730/Mega-Aggron_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Aggron en WikiDex"
+      }
+    },
+    {
+      "id": "mega-medicham",
+      "dexNumber": 308,
+      "displayName": "Mega-Medicham",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Lucha",
+        "Psíquico"
+      ],
+      "baseStats": {
+        "speed": 100
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Medicham",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/a/a5/latest/20260417162801/Mega-Medicham_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Medicham en WikiDex"
+      }
+    },
+    {
+      "id": "mega-manectric",
+      "dexNumber": 310,
+      "displayName": "Mega-Manectric",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Eléctrico"
+      ],
+      "baseStats": {
+        "speed": 135
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Manectric",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/0/06/latest/20260417162836/Mega-Manectric_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Manectric en WikiDex"
+      }
+    },
+    {
+      "id": "mega-sharpedo",
+      "dexNumber": 319,
+      "displayName": "Mega-Sharpedo",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Agua",
+        "Siniestro"
+      ],
+      "baseStats": {
+        "speed": 105
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Sharpedo",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/2/2a/latest/20260417162728/Mega-Sharpedo_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Sharpedo en WikiDex"
+      }
+    },
+    {
+      "id": "mega-camerupt",
+      "dexNumber": 323,
+      "displayName": "Mega-Camerupt",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Fuego",
+        "Tierra"
+      ],
+      "baseStats": {
+        "speed": 20
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Camerupt",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/7/71/latest/20260417162826/Mega-Camerupt_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Camerupt en WikiDex"
+      }
+    },
+    {
+      "id": "mega-altaria",
+      "dexNumber": 334,
+      "displayName": "Mega-Altaria",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Dragón",
+        "Volador"
+      ],
+      "baseStats": {
+        "speed": 80
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Altaria",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/b/b3/latest/20260417162653/Mega-Altaria_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Altaria en WikiDex"
+      }
+    },
+    {
+      "id": "mega-banette",
+      "dexNumber": 354,
+      "displayName": "Mega-Banette",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Fantasma"
+      ],
+      "baseStats": {
+        "speed": 75
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Banette",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/8/8f/latest/20260417162921/Mega-Banette_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Banette en WikiDex"
+      }
+    },
+    {
+      "id": "mega-chimecho",
+      "dexNumber": 358,
+      "displayName": "Mega-Chimecho",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Psíquico",
+        "Acero"
+      ],
+      "baseStats": {
+        "speed": 65
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Chimecho",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/d/d8/latest/20260417162819/Mega-Chimecho_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Chimecho en WikiDex"
+      }
+    },
+    {
+      "id": "mega-absol",
+      "dexNumber": 359,
+      "displayName": "Mega-Absol",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Siniestro",
+        "Fantasma"
+      ],
+      "baseStats": {
+        "speed": 115
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Absol",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/2/25/latest/20260417162928/Mega-Absol_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Absol en WikiDex"
+      }
+    },
+    {
+      "id": "mega-glalie",
+      "dexNumber": 362,
+      "displayName": "Mega-Glalie",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Hielo"
+      ],
+      "baseStats": {
+        "speed": 100
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Glalie",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/d/da/latest/20260417162719/Mega-Glalie_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Glalie en WikiDex"
+      }
+    },
+    {
+      "id": "mega-metagross",
+      "dexNumber": 376,
+      "displayName": "Mega-Metagross",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Acero",
+        "Psíquico"
+      ],
+      "baseStats": {
+        "speed": 110
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Metagross",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/0/05/latest/20260617140055/Mega-Metagross_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Metagross en WikiDex"
+      }
+    },
+    {
+      "id": "mega-staraptor",
+      "dexNumber": 398,
+      "displayName": "Mega-Staraptor",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Normal",
+        "Volador"
+      ],
+      "baseStats": {
+        "speed": 110
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Staraptor",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/f/fe/latest/20260617125330/Mega-Staraptor_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Staraptor en WikiDex"
+      }
+    },
+    {
+      "id": "mega-lopunny",
+      "dexNumber": 428,
+      "displayName": "Mega-Lopunny",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Normal",
+        "Lucha"
+      ],
+      "baseStats": {
+        "speed": 135
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Lopunny",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/6/65/latest/20260417162904/Mega-Lopunny_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Lopunny en WikiDex"
+      }
+    },
+    {
+      "id": "mega-garchomp",
+      "dexNumber": 445,
+      "displayName": "Mega-Garchomp",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Dragón",
+        "Tierra"
+      ],
+      "baseStats": {
+        "speed": 92
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Garchomp",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/e/ed/latest/20260417162624/Mega-Garchomp_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Garchomp en WikiDex"
+      }
+    },
+    {
+      "id": "mega-lucario",
+      "dexNumber": 448,
+      "displayName": "Mega-Lucario",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Lucha",
+        "Acero"
+      ],
+      "baseStats": {
+        "speed": 112
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Lucario",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/f/f3/latest/20260417162721/Mega-Lucario_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Lucario en WikiDex"
+      }
+    },
+    {
+      "id": "mega-abomasnow",
+      "dexNumber": 460,
+      "displayName": "Mega-Abomasnow",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Planta",
+        "Hielo"
+      ],
+      "baseStats": {
+        "speed": 30
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Abomasnow",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/f/f0/latest/20260417162838/Mega-Abomasnow_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Abomasnow en WikiDex"
+      }
+    },
+    {
+      "id": "mega-gallade",
+      "dexNumber": 475,
+      "displayName": "Mega-Gallade",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Psíquico",
+        "Lucha"
+      ],
+      "baseStats": {
+        "speed": 110
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Gallade",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/2/2f/latest/20260417162938/Mega-Gallade_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Gallade en WikiDex"
+      }
+    },
+    {
+      "id": "mega-froslass",
+      "dexNumber": 478,
+      "displayName": "Mega-Froslass",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Hielo",
+        "Fantasma"
+      ],
+      "baseStats": {
+        "speed": 120
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Froslass",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/b/b9/latest/20260417163007/Mega-Froslass_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Froslass en WikiDex"
+      }
+    },
+    {
+      "id": "mega-emboar",
+      "dexNumber": 500,
+      "displayName": "Mega-Emboar",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Fuego",
+        "Lucha"
+      ],
+      "baseStats": {
+        "speed": 75
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Emboar",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/e/e3/latest/20260417162702/Mega-Emboar_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Emboar en WikiDex"
+      }
+    },
+    {
+      "id": "mega-excadrill",
+      "dexNumber": 530,
+      "displayName": "Mega-Excadrill",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Tierra",
+        "Acero"
+      ],
+      "baseStats": {
+        "speed": 103
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Excadrill",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/f/f0/latest/20260417162522/Mega-Excadrill_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Excadrill en WikiDex"
+      }
+    },
+    {
+      "id": "mega-audino",
+      "dexNumber": 531,
+      "displayName": "Mega-Audino",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Normal",
+        "Hada"
+      ],
+      "baseStats": {
+        "speed": 50
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Audino",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/d/d6/latest/20260417162753/Mega-Audino_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Audino en WikiDex"
+      }
+    },
+    {
+      "id": "mega-scolipede",
+      "dexNumber": 545,
+      "displayName": "Mega-Scolipede",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Bicho",
+        "Veneno"
+      ],
+      "baseStats": {
+        "speed": 62
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Scolipede",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/1/1d/latest/20260617125442/Mega-Scolipede_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Scolipede en WikiDex"
+      }
+    },
+    {
+      "id": "mega-scrafty",
+      "dexNumber": 560,
+      "displayName": "Mega-Scrafty",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Siniestro",
+        "Lucha"
+      ],
+      "baseStats": {
+        "speed": 68
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Scrafty",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/5/5d/latest/20260617130523/Mega-Scrafty_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Scrafty en WikiDex"
+      }
+    },
+    {
+      "id": "mega-eelektross",
+      "dexNumber": 604,
+      "displayName": "Mega-Eelektross",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Eléctrico"
+      ],
+      "baseStats": {
+        "speed": 80
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Eelektross",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/b/b5/latest/20260617124423/Mega-Eelektross_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Eelektross en WikiDex"
+      }
+    },
+    {
+      "id": "mega-chandelure",
+      "dexNumber": 609,
+      "displayName": "Mega-Chandelure",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Fantasma",
+        "Fuego"
+      ],
+      "baseStats": {
+        "speed": 90
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Chandelure",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/e/e0/latest/20260417162530/Mega-Chandelure_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Chandelure en WikiDex"
+      }
+    },
+    {
+      "id": "mega-golurk",
+      "dexNumber": 623,
+      "displayName": "Mega-Golurk",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Tierra",
+        "Fantasma"
+      ],
+      "baseStats": {
+        "speed": 55
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Golurk",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/4/4c/latest/20260417162759/Mega-Golurk_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Golurk en WikiDex"
+      }
+    },
+    {
+      "id": "mega-chesnaught",
+      "dexNumber": 652,
+      "displayName": "Mega-Chesnaught",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Planta",
+        "Lucha"
+      ],
+      "baseStats": {
+        "speed": 44
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Chesnaught",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/5/51/latest/20260417162824/Mega-Chesnaught_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Chesnaught en WikiDex"
+      }
+    },
+    {
+      "id": "mega-delphox",
+      "dexNumber": 655,
+      "displayName": "Mega-Delphox",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Fuego",
+        "Psíquico"
+      ],
+      "baseStats": {
+        "speed": 134
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Delphox",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/0/08/latest/20260417162800/Mega-Delphox_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Delphox en WikiDex"
+      }
+    },
+    {
+      "id": "mega-greninja",
+      "dexNumber": 658,
+      "displayName": "Mega-Greninja",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Agua",
+        "Siniestro"
+      ],
+      "baseStats": {
+        "speed": 142
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Greninja",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/8/8f/latest/20260417162508/Mega-Greninja_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Greninja en WikiDex"
+      }
+    },
+    {
+      "id": "mega-pyroar",
+      "dexNumber": 668,
+      "displayName": "Mega-Pyroar",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Fuego",
+        "Normal"
+      ],
+      "baseStats": {
+        "speed": 126
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Pyroar",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/9/98/latest/20260617124252/Mega-Pyroar_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Pyroar en WikiDex"
+      }
+    },
+    {
+      "id": "mega-floette",
+      "dexNumber": 670,
+      "displayName": "Mega-Floette",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Hada"
+      ],
+      "baseStats": {
+        "speed": 102
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Floette",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/2/2c/latest/20260417163016/Mega-Floette_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Floette en WikiDex"
+      }
+    },
+    {
+      "id": "mega-meowstic",
+      "dexNumber": 678,
+      "displayName": "Mega-Meowstic",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Psíquico"
+      ],
+      "baseStats": {
+        "speed": 124
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Meowstic",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/f/f7/latest/20260417162743/Mega-Meowstic_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Meowstic en WikiDex"
+      }
+    },
+    {
+      "id": "mega-malamar",
+      "dexNumber": 687,
+      "displayName": "Mega-Malamar",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Siniestro",
+        "Psíquico"
+      ],
+      "baseStats": {
+        "speed": 88
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Malamar",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/4/40/latest/20260617124047/Mega-Malamar_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Malamar en WikiDex"
+      }
+    },
+    {
+      "id": "mega-barbaracle",
+      "dexNumber": 689,
+      "displayName": "Mega-Barbaracle",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Roca",
+        "Agua"
+      ],
+      "baseStats": {
+        "speed": 88
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Barbaracle",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/6/68/latest/20260617124214/Mega-Barbaracle_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Barbaracle en WikiDex"
+      }
+    },
+    {
+      "id": "mega-dragalge",
+      "dexNumber": 691,
+      "displayName": "Mega-Dragalge",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Veneno",
+        "Dragón"
+      ],
+      "baseStats": {
+        "speed": 44
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Dragalge",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/f/f5/latest/20260617123749/Mega-Dragalge_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Dragalge en WikiDex"
+      }
+    },
+    {
+      "id": "mega-hawlucha",
+      "dexNumber": 701,
+      "displayName": "Mega-Hawlucha",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Lucha",
+        "Volador"
+      ],
+      "baseStats": {
+        "speed": 118
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Hawlucha",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/5/5e/latest/20260417162553/Mega-Hawlucha_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Hawlucha en WikiDex"
+      }
+    },
+    {
+      "id": "mega-crabominable",
+      "dexNumber": 740,
+      "displayName": "Mega-Crabominable",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Lucha",
+        "Hielo"
+      ],
+      "baseStats": {
+        "speed": 33
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Crabominable",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/c/cd/latest/20260417162927/Mega-Crabominable_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Crabominable en WikiDex"
+      }
+    },
+    {
+      "id": "mega-drampa",
+      "dexNumber": 780,
+      "displayName": "Mega-Drampa",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Normal",
+        "Dragón"
+      ],
+      "baseStats": {
+        "speed": 36
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Drampa",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/5/56/latest/20260417162851/Mega-Drampa_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Drampa en WikiDex"
+      }
+    },
+    {
+      "id": "mega-falinks",
+      "dexNumber": 870,
+      "displayName": "Mega-Falinks",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Lucha"
+      ],
+      "baseStats": {
+        "speed": 100
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Falinks",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/3/3d/latest/20260617140727/Mega-Falinks_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Falinks en WikiDex"
+      }
+    },
+    {
+      "id": "mega-scovillain",
+      "dexNumber": 952,
+      "displayName": "Mega-Scovillain",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Planta",
+        "Fuego"
+      ],
+      "baseStats": {
+        "speed": 75
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Scovillain",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/3/33/latest/20260417162643/Mega-Scovillain_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Scovillain en WikiDex"
+      }
+    },
+    {
+      "id": "mega-glimmora",
+      "dexNumber": 970,
+      "displayName": "Mega-Glimmora",
+      "form": "Mega",
+      "isMega": true,
+      "types": [
+        "Roca",
+        "Veneno"
+      ],
+      "baseStats": {
+        "speed": 101
+      },
+      "assets": {
+        "wikidexPageUrl": "https://www.wikidex.net/wiki/Glimmora",
+        "imageUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/4/44/latest/20260417162736/Mega-Glimmora_icono_Champions.png",
+        "imageAlt": "Ilustración de Mega-Glimmora en WikiDex"
+      }
+    }
+  ]
+}
