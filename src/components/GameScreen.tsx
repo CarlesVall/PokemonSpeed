@@ -18,6 +18,6 @@ export function GameScreen({ catalog, mode, onModeChange, comparisonGame, speedQ
       <button type="button" className={mode === 'compare' ? 'game-mode-button game-mode-button--active' : 'game-mode-button'} onClick={() => onModeChange('compare')}>COMPARAR</button>
       <button type="button" className={mode === 'guess' ? 'game-mode-button game-mode-button--active' : 'game-mode-button'} onClick={() => onModeChange('guess')}>ADIVINAR VELOCIDAD</button>
     </div>
-    {mode === 'compare' ? <ComparisonGame catalog={catalog} game={comparisonGame} /> : <SpeedQuiz pokemon={speedQuiz.pokemon} guess={speedQuiz.guess} phase={speedQuiz.phase} result={speedQuiz.result} hint={speedQuiz.hint} onGuessChange={speedQuiz.setGuess} onSubmit={speedQuiz.submitAnswer} onNext={speedQuiz.nextQuestion} onNewGame={speedQuiz.startNewGame} />}
+    {mode === 'compare' ? <ComparisonGame catalog={catalog} game={comparisonGame} /> : <SpeedQuiz pokemon={speedQuiz.pokemon} guess={speedQuiz.guess} lastSubmittedGuess={speedQuiz.lastSubmittedGuess} phase={speedQuiz.phase} result={speedQuiz.result} hint={speedQuiz.hint} onGuessChange={speedQuiz.setGuess} onSubmit={speedQuiz.submitAnswer} onNext={speedQuiz.nextQuestion} onNewGame={speedQuiz.startNewGame} />}
   </section>
 }

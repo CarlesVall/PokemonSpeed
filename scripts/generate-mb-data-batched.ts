@@ -25,6 +25,13 @@ const specialForms: Record<string, Array<{ displayName: string; section: string 
   basculegion: [{ displayName: 'Basculegion (Macho)', section: 'Basculegion macho' }, { displayName: 'Basculegion (Hembra)', section: 'Basculegion hembra' }],
 }
 
+const speedOverrides: Record<string, number> = {
+  gourgeist: 84,
+  'gourgeist-2': 99,
+  'gourgeist-3': 69,
+  'gourgeist-4': 54,
+}
+
 async function queryPages(titles: string[]) {
   const response = await fetch(api({ titles: titles.join('|') }))
   if (!response.ok) throw new Error(`WikiDex respondió ${response.status}`)
@@ -93,12 +100,13 @@ async function main() {
     const key = slug(entry.rawName)
     const special = specialForms[key]?.[entry.occurrence - 1]
     const displayName = special?.displayName ?? entry.rawName
-    const stat = speed(content, special?.section ?? target?.section)
+    const id = `${slug(entry.rawName)}${entry.occurrence > 1 ? `-${entry.occurrence}` : ''}`
+    const stat = speedOverrides[id] ?? speed(content, special?.section ?? target?.section)
     const nationalDex = dex(content)
     if (stat === undefined || nationalDex === undefined) throw new Error(`Datos incompletos: ${displayName}`)
     const form = entry.isMega ? 'Mega' : special?.displayName.match(/\(([^)]+)\)/)?.[1] ?? null
     return {
-      id: `${slug(entry.rawName)}${entry.occurrence > 1 ? `-${entry.occurrence}` : ''}`,
+      id,
       dexNumber: nationalDex, displayName, form, baseStats: { speed: stat }, types: [], isMega: entry.isMega,
       assets: { wikidexPageUrl: `https://www.wikidex.net/wiki/${encodeURIComponent(pageTitle.replace(/ /g, '_'))}`, imageUrl: `https://www.wikidex.net/wiki/Especial:Redirigir_archivo/${encodeURIComponent(entry.imageFile.replace(/ /g, '_'))}`, imageAlt: `Ilustración de ${displayName} en WikiDex` },
     }

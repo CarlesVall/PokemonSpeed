@@ -10,9 +10,10 @@ type Props = {
     value: string
     onChange: (value: string) => void
   }
+  speedHint?: 'higher' | 'lower' | null
 }
 
-export function PokemonCard({ pokemon, role, revealed, result, speedGuess }: Props) {
+export function PokemonCard({ pokemon, role, revealed, result, speedGuess, speedHint }: Props) {
   const [imageFailed, setImageFailed] = useState(false)
   const isChallenger = role === 'challenger'
   const stateClass = isChallenger && revealed && result ? `card--${result}` : ''
@@ -35,6 +36,7 @@ export function PokemonCard({ pokemon, role, revealed, result, speedGuess }: Pro
             <b>VEL.</b>
             <input id="speed-guess" value={speedGuess.value} onChange={(event) => speedGuess.onChange(event.target.value)} type="number" inputMode="numeric" min="5" max="200" step="1" required autoFocus placeholder="?" aria-label="Tu respuesta de Velocidad Base" />
             <i>BST</i>
+            {speedHint && <span className={'card-guess-direction card-guess-direction--' + speedHint} aria-hidden="true">{speedHint === 'higher' ? '↑' : '↓'}</span>}
           </label>
         ) : <strong>{isChallenger && !revealed ? '?' : pokemon.baseStats.speed}</strong>}
       </div>

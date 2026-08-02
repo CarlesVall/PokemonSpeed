@@ -21,6 +21,7 @@ const pickPokemon = (catalog: PokemonEntry[], previousId?: string) => {
 export function useSpeedQuiz(catalog: PokemonEntry[]) {
   const [pokemon, setPokemon] = useState<PokemonEntry>(() => pickPokemon(catalog))
   const [guess, setGuess] = useState('')
+  const [lastSubmittedGuess, setLastSubmittedGuess] = useState<number | null>(null)
   const [phase, setPhase] = useState<QuizPhase>('ready')
   const [result, setResult] = useState<QuizResult>(null)
   const [hint, setHint] = useState<SpeedHint>(null)
@@ -31,11 +32,11 @@ export function useSpeedQuiz(catalog: PokemonEntry[]) {
     if (phase !== 'ready') return false
     const value = Number(guess.trim())
     if (!Number.isInteger(value)) return false
+    setLastSubmittedGuess(value)
 
     if (value !== pokemon.baseStats.speed) {
       setHint(value < pokemon.baseStats.speed ? 'higher' : 'lower')
       setResult('incorrect')
-      setGuess('')
       setStreak(0)
       return true
     }
@@ -57,6 +58,7 @@ export function useSpeedQuiz(catalog: PokemonEntry[]) {
   const nextQuestion = useCallback(() => {
     setPokemon((current) => pickPokemon(catalog, current.id))
     setGuess('')
+    setLastSubmittedGuess(null)
     setHint(null)
     setResult(null)
     setPhase('ready')
@@ -65,11 +67,12 @@ export function useSpeedQuiz(catalog: PokemonEntry[]) {
   const startNewGame = useCallback(() => {
     setPokemon(pickPokemon(catalog))
     setGuess('')
+    setLastSubmittedGuess(null)
     setHint(null)
     setResult(null)
     setPhase('ready')
     setStreak(0)
   }, [catalog])
 
-  return { pokemon, guess, setGuess, phase, result, hint, streak, bestStreak, submitAnswer, nextQuestion, startNewGame }
+  return { pokemon, guess, setGuess, lastSubmittedGuess, phase, result, hint, streak, bestStreak, submitAnswer, nextQuestion, startNewGame }
 }
