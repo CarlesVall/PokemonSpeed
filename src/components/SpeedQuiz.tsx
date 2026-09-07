@@ -34,7 +34,6 @@ export function SpeedQuiz({ pokemon, guess, lastSubmittedGuess, phase, result, h
   return (
     <div className="speed-quiz">
       <h1>&#191;Cu&#225;nta velocidad tiene?</h1>
-      <p className="question">Observa el Pok&#233;mon y escribe su <b>Velocidad Base</b> exacta.</p>
       <form className="speed-quiz-form" onSubmit={submit}>
         <div className="speed-quiz-card">
           <PokemonCard key={pokemon.id} pokemon={pokemon} role="challenger" revealed={revealed} result={result} speedGuess={revealed ? undefined : { value: guess, onChange: onGuessChange }} speedHint={hasDirectionHint ? hint : null} />
