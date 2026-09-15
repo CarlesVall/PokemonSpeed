@@ -22,12 +22,13 @@ export type PokemonEntry = {
 
 export type PokemonCatalog = {
   schemaVersion: 1
-  regulation: 'M-B'
+  regulation: `M-${string}`
   snapshotDate: string
   sources: {
     eligibility: { name: string; url: string }
     speeds: { name: string; url: string }
     artwork: { name: string; url: string }
+    officialRegulation?: { name: string; url: string }
   }
   pokemon: PokemonEntry[]
 }

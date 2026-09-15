@@ -10,3 +10,20 @@ export const catalogMetadata = {
 }
 
 export const createCatalog = <T>(pokemon: T[]) => ({ ...catalogMetadata, pokemon })
+
+export const createRegulationCatalog = <T>(
+  regulation: string,
+  sources: {
+    eligibility: { name: string; url: string }
+    speeds: { name: string; url: string }
+    artwork: { name: string; url: string }
+    officialRegulation: { name: string; url: string }
+  },
+  pokemon: T[],
+) => ({
+  schemaVersion: 1 as const,
+  regulation: regulation as `M-${string}`,
+  snapshotDate: new Date().toISOString().slice(0, 10),
+  sources,
+  pokemon,
+})
