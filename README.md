@@ -81,3 +81,18 @@ React, TypeScript, Vite y Vitest. La aplicación es estática: no usa backend, c
 ## Aviso
 
 Pokémon y Pokémon Champions son marcas de sus respectivos titulares. Esta es una herramienta de entrenamiento creada por la comunidad y no está afiliada ni respaldada oficialmente por The Pokémon Company.
+
+### Actualizar un reglamento
+
+El generador consulta la API de WikiDex como lista operativa de Pokémon
+permitidos, formas y megaevoluciones. Cada reglamento configurado enlaza además
+el anuncio oficial de Pokémon Champions como contraste de procedencia. Ejecuta
+primero el modo informe y revisa altas, bajas y cambios; después repite con
+`--write`. La aplicación no consulta ninguna API durante una partida.
+
+```bash
+npm run update:regulation -- --code M-C
+npm run update:regulation -- --code M-C --write
+```
+
+Para M-C, la fuente del listado es [Reglamento M-C de WikiDex](https://www.wikidex.net/wiki/Reglamento_M-C). El [anuncio oficial](https://champions-news.pokemon-home.com/en/page/816.html) confirma el reglamento, pero aún no publica la lista completa.

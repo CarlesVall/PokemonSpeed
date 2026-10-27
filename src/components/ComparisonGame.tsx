@@ -40,11 +40,10 @@ export function ComparisonGame({ catalog, game }: Props) {
     <br />
     <div className="battlefield">
       <div className="reference-wrap">
-        <PokemonCard key={round.reference.id} pokemon={round.reference} role="reference" revealed result={null} />
-        <div className="reference-actions">
+        <PokemonCard key={round.reference.id} pokemon={round.reference} role="reference" revealed result={null} actions={<div className="reference-actions">
           <button className="change-button" type="button" onClick={() => setSelectorOpen((open) => !open)} aria-expanded={selectorOpen} aria-controls="reference-selector">ELEGIR</button>
           <button className={'lock-button ' + (referenceLocked ? 'lock-button--active' : '')} type="button" onClick={toggleReferenceLock} aria-pressed={referenceLocked}><span aria-hidden="true">{referenceLocked ? '🔒' : '🔓'}</span> {referenceLocked ? 'FIJADO' : 'FIJAR'}</button>
-        </div>
+        </div>} />
       </div>
       <div className="versus" aria-hidden="true">VS</div>
       <PokemonCard key={round.challenger.id} pokemon={round.challenger} role="challenger" revealed={revealed} result={result} />

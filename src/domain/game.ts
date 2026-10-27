@@ -41,7 +41,7 @@ export const createRound = (
 
 export const validateCatalog = (catalog: PokemonCatalog) => {
   if (catalog.schemaVersion !== 1) throw new Error('Versi?n de esquema no v?lida.')
-  if (catalog.regulation !== 'M-B') throw new Error('Reglamento no v?lido.')
+  if (!/^M-[A-Z]$/.test(catalog.regulation)) throw new Error('Reglamento no v?lido.')
   if (!catalog.snapshotDate) throw new Error('Falta la fecha de la instant?nea.')
   if (!catalog.sources.eligibility.url || !catalog.sources.speeds.url || !catalog.sources.artwork.url) {
     throw new Error('Faltan las fuentes del cat?logo.')

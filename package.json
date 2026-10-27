@@ -10,7 +10,8 @@
     "test:watch": "vitest",
     "validate:data": "tsx scripts/validate-data.ts",
     "audit:mega-speeds": "tsx scripts/audit-mega-speeds.ts",
-    "generate:data": "tsx scripts/generate-mb-data-batched.ts && tsx scripts/resolve-image-urls-v2.ts && tsx scripts/add-types.ts && tsx scripts/fix-mb-mega-speeds.ts"
+    "generate:data": "tsx scripts/generate-regulation-data.ts --code M-B --write",
+    "update:regulation": "tsx scripts/generate-regulation-data.ts"
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",

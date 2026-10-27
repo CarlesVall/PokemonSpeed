@@ -1,3 +1,4 @@
+import type { ReactNode } from 'react'
 import { useState } from 'react'
 import type { PokemonEntry, Result } from '../data/types'
 
@@ -11,15 +12,17 @@ type Props = {
     onChange: (value: string) => void
   }
   speedHint?: 'higher' | 'lower' | null
+  actions?: ReactNode
 }
 
-export function PokemonCard({ pokemon, role, revealed, result, speedGuess, speedHint }: Props) {
+export function PokemonCard({ pokemon, role, revealed, result, speedGuess, speedHint, actions }: Props) {
   const [imageFailed, setImageFailed] = useState(false)
   const isChallenger = role === 'challenger'
   const stateClass = isChallenger && revealed && result ? `card--${result}` : ''
 
   return (
     <article className={`pokemon-card ${stateClass}`} aria-label={`${pokemon.displayName}, ${isChallenger && !revealed ? 'velocidad oculta' : `velocidad base ${pokemon.baseStats.speed}`}`}>
+      {actions && <div className="pokemon-card-actions">{actions}</div>}
       <a className="pokemon-art" href={pokemon.assets.wikidexPageUrl} target="_blank" rel="noreferrer" aria-label={`Abrir ${pokemon.displayName} en WikiDex`}>
         {imageFailed ? (
           <span className="image-fallback" aria-hidden="true">&#9673;</span>

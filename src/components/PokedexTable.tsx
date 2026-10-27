@@ -40,6 +40,12 @@ function TypeFilter({ label, value, options, disabledType, onChange }: TypeFilte
 }
 
 export function PokedexTable({ catalog }: Props) {
+  const [draftFirstType, setDraftFirstType] = useState('')
+  const [draftSecondType, setDraftSecondType] = useState('')
+  const [draftSpeedMode, setDraftSpeedMode] = useState<SpeedMode>('any')
+  const [draftFirstSpeed, setDraftFirstSpeed] = useState('')
+  const [draftSecondSpeed, setDraftSecondSpeed] = useState('')
+  const [draftSearch, setDraftSearch] = useState('')
   const [firstType, setFirstType] = useState('')
   const [secondType, setSecondType] = useState('')
   const [speedMode, setSpeedMode] = useState<SpeedMode>('any')
@@ -47,6 +53,7 @@ export function PokedexTable({ catalog }: Props) {
   const [secondSpeed, setSecondSpeed] = useState('')
   const [search, setSearch] = useState('')
   const [descending, setDescending] = useState(true)
+  const [filtersOpen, setFiltersOpen] = useState(true)
 
   const typeOptions = useMemo(
     () => [...new Set(catalog.flatMap((pokemon) => pokemon.types))].sort((first, second) => first.localeCompare(second, 'es')),
@@ -78,14 +85,29 @@ export function PokedexTable({ catalog }: Props) {
   }, [catalog, descending, firstSpeed, firstType, search, secondSpeed, secondType, speedMode])
 
   const changeSpeedMode = (mode: SpeedMode) => {
-    setSpeedMode(mode)
-    if (mode === 'between') {
-      setFirstSpeed('0')
-      setSecondSpeed('255')
+    setDraftSpeedMode(mode)
+    if (mode === 'between' && draftFirstSpeed === '' && draftSecondSpeed === '') {
+      setDraftFirstSpeed('0')
+      setDraftSecondSpeed('255')
     }
   }
 
+  const applyFilters = () => {
+    setFirstType(draftFirstType)
+    setSecondType(draftSecondType)
+    setSpeedMode(draftSpeedMode)
+    setFirstSpeed(draftFirstSpeed)
+    setSecondSpeed(draftSecondSpeed)
+    setSearch(draftSearch)
+  }
+
   const clearFilters = () => {
+    setDraftFirstType('')
+    setDraftSecondType('')
+    setDraftSpeedMode('any')
+    setDraftFirstSpeed('')
+    setDraftSecondSpeed('')
+    setDraftSearch('')
     setFirstType('')
     setSecondType('')
     setSpeedMode('any')
@@ -98,47 +120,52 @@ export function PokedexTable({ catalog }: Props) {
     <section className="dex-view" aria-labelledby="dex-title">
       <div className="dex-heading">
         <div><p className="eyebrow">POKÉMON CHAMPIONS · CONSULTA RÁPIDA</p><h1 id="dex-title">Tabla de Velocidades</h1><p>Combate Doble · Reglamento M-B</p></div>
-        <strong>{filtered.length}<small> RESULTADOS</small></strong>
+        <div className="dex-heading-meta">
+          <strong>{filtered.length}<small> RESULTADOS</small></strong>
+          <button type="button" className="order-toggle" onClick={() => setDescending((value) => !value)} aria-label="Invertir orden de velocidad">Invertir orden <span aria-hidden="true">{descending ? '↓' : '↑'}</span></button>
+          <button type="button" className="filters-toggle" onClick={() => setFiltersOpen((current) => !current)} aria-expanded={filtersOpen} aria-controls="dex-filters">{filtersOpen ? 'OCULTAR FILTROS' : 'MOSTRAR FILTROS'}</button>
+        </div>
       </div>
 
-      <div className="dex-filters">
+      <div className="dex-filters" id="dex-filters" hidden={!filtersOpen}>
         <fieldset className="name-filter">
           <legend>Buscar Pokémon</legend>
-          <input value={search} onChange={(event) => setSearch(event.target.value)} type="search" placeholder="Nombre o forma…" aria-label="Buscar en la tabla" />
+          <input value={draftSearch} onChange={(event) => setDraftSearch(event.target.value)} type="search" placeholder="Nombre o forma…" aria-label="Buscar en la tabla" />
         </fieldset>
         <fieldset className="type-filter">
-          <legend>Tipos</legend>
-          <TypeFilter label="Primer tipo" value={firstType} options={typeOptions} onChange={setFirstType} />
-          <TypeFilter label="Segundo tipo" value={secondType} options={typeOptions} disabledType={firstType} onChange={setSecondType} />
+          <legend>Tipo</legend>
+          <TypeFilter label="Primer tipo" value={draftFirstType} options={typeOptions} onChange={setDraftFirstType} />
+          <TypeFilter label="Segundo tipo" value={draftSecondType} options={typeOptions} disabledType={draftFirstType} onChange={setDraftSecondType} />
         </fieldset>
         <fieldset className="speed-filter">
           <legend>Velocidad Base</legend>
-          <select className={speedMode === 'any' ? 'speed-mode speed-mode--placeholder' : 'speed-mode'} value={speedMode} onChange={(event) => changeSpeedMode(event.target.value as SpeedMode)} aria-label="Modo de filtro de velocidad">
+          <select className={draftSpeedMode === 'any' ? 'speed-mode speed-mode--placeholder' : 'speed-mode'} value={draftSpeedMode} onChange={(event) => changeSpeedMode(event.target.value as SpeedMode)} aria-label="Modo de filtro de velocidad">
             <option value="any">&mdash; Sin filtro &mdash;</option>
             <option value="greater">Mayor que</option>
             <option value="between">Entre</option>
             <option value="less">Menor que</option>
           </select>
-          {speedMode !== 'any' && <div className="speed-range">
+          {draftSpeedMode !== 'any' && <div className="speed-range">
             <label className="speed-input">
-              <span>{speedMode === 'between' ? 'Desde' : 'Velocidad'}</span>
-              <span className="speed-value"><b>VEL.</b><input value={firstSpeed} onChange={(event) => setFirstSpeed(event.target.value)} type="number" min="0" max="255" placeholder="0" aria-label={speedMode === 'between' ? 'Velocidad desde' : 'Valor de velocidad'} /><i>BST</i></span>
+              <span>{draftSpeedMode === 'between' ? 'Desde' : 'Velocidad'}</span>
+              <span className="speed-value"><b>VEL.</b><input value={draftFirstSpeed} onChange={(event) => setDraftFirstSpeed(event.target.value)} type="number" min="0" max="255" placeholder="0" aria-label={draftSpeedMode === 'between' ? 'Velocidad desde' : 'Valor de velocidad'} /><i>BST</i></span>
             </label>
-            {speedMode === 'between' && <><span className="range-divider" aria-hidden="true">&mdash;</span><label className="speed-input"><span>Hasta</span><span className="speed-value"><b>VEL.</b><input value={secondSpeed} onChange={(event) => setSecondSpeed(event.target.value)} type="number" min="0" max="255" placeholder="255" aria-label="Velocidad hasta" /><i>BST</i></span></label></>}
+            {draftSpeedMode === 'between' && <><span className="range-divider" aria-hidden="true">&mdash;</span><label className="speed-input"><span>Hasta</span><span className="speed-value"><b>VEL.</b><input value={draftSecondSpeed} onChange={(event) => setDraftSecondSpeed(event.target.value)} type="number" min="0" max="255" placeholder="255" aria-label="Velocidad hasta" /><i>BST</i></span></label></>}
           </div>}
         </fieldset>
+        <button type="button" className="apply-filters" onClick={applyFilters}>Aplicar filtros</button>
         <button type="button" className="clear-filters" onClick={clearFilters}>Limpiar filtros</button>
       </div>
 
       <div className="table-wrap">
         <table>
-          <thead><tr><th>Pokémon</th><th>Tipos</th><th><button type="button" onClick={() => setDescending((value) => !value)} aria-label={`Ordenar velocidad ${descending ? 'ascendente' : 'descendente'}`}>Velocidad <span aria-hidden="true">{descending ? '↓' : '↑'}</span></button></th></tr></thead>
+          <thead><tr><th>Pokémon</th><th>Tipo</th><th>Velocidad</th></tr></thead>
           <tbody>
             {filtered.map((pokemon) => (
               <tr key={pokemon.id}>
-                <td><a href={pokemon.assets.wikidexPageUrl} target="_blank" rel="noreferrer"><img src={pokemon.assets.imageUrl} alt="" /><span>{pokemon.displayName}{pokemon.isMega && <em>MEGA</em>}</span></a></td>
-                <td><span className="type-badges">{pokemon.types.map((type) => <TypeBadge key={type} type={type} />)}</span></td>
-                <td className="speed-cell">{pokemon.baseStats.speed}</td>
+                <td data-label="Pokemon"><a href={pokemon.assets.wikidexPageUrl} target="_blank" rel="noreferrer"><img src={pokemon.assets.imageUrl} alt="" /><span>{pokemon.displayName}{pokemon.isMega && <em>MEGA</em>}</span></a></td>
+                <td data-label="Tipo"><span className="type-badges">{pokemon.types.map((type) => <TypeBadge key={type} type={type} />)}</span></td>
+                <td data-label="Velocidad" className="speed-cell">{pokemon.baseStats.speed}</td>
               </tr>
             ))}
           </tbody>
